@@ -389,6 +389,7 @@ html {
   color: grey;
 }
 
+/* animated butons */
 .button {
   border: none;
   outline: 0;
@@ -411,3 +412,7 @@ html {
     display: block;
   }
 }
+
+
+/* end of animated buttons*/
+
