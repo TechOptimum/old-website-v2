@@ -216,6 +216,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .l-heading{
   font-size: 2rem;
+  color: rgba(85, 114, 243, 0.774)
 }
 
 /* Navigation Bar */
@@ -401,10 +402,14 @@ html {
   text-align: center;
   cursor: pointer;
   width: 100%;
+  transition: 300ms;
+  
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: rgb(130, 221, 152);
+  color: whitesmoke;
+  transition: 300ms;
 }
 
 @media screen and (max-width: 650px) {
@@ -466,3 +471,10 @@ html {
 
 /* end of animated buttons*/
 
+.legalbuttonsection {
+  padding-top: 1.5rem;
+  justify-content: center;
+
+
+
+}
