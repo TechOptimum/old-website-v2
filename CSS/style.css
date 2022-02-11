@@ -128,7 +128,7 @@ h1,h2,h3,h4,h5,h6{
   background: var(--dark-color);
   color: #fff;
   padding: 0.5rem 1.5rem;
-  transition: 3000ms;
+  transition: 600ms;
 }
 .btn-light{
   background: var(--light-color);
@@ -143,7 +143,7 @@ h1,h2,h3,h4,h5,h6{
 .btn:hover{
   background: #98fb98;
   color: #FF0000;
-  transition: 3000ms;
+  transition: 600ms;
 }
 .btn-block{
   display: block;
