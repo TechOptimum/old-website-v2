@@ -216,7 +216,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .l-heading{
   font-size: 3.5rem;
-  color: rgba(85, 114, 243, 0.774)
+  color: rgba(85, 114, 243, 0.774);
 }
 
 /* Navigation Bar */
@@ -365,6 +365,12 @@ html {
   padding: 0 8px;
 }
 
+
+.column2 {
+  text-align: center;
+  height: 6rem;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
@@ -474,8 +480,24 @@ html {
 .legalbuttonsection {
   padding-top: 1.5rem;
   justify-content: center;
+  float: left;
+  padding-right: .5rem;
 
 }
 .whatweoffer {
-  font-size: 3rem;
+  font-size: 3.5rem;
+}
+.aboutsubtitle {
+  font-size: 2.5rem;
+  color: rgba(37, 75, 247, 0.774);
+}
+.executiveprofile {
+  font-size: 2rem;
+  color:rgb(90, 89, 89);
+}
+.foundertitle {
+  font-size: 2rem;
+  color:rgb(90, 89, 89);
+  padding-top: 2rem;
+
 }
