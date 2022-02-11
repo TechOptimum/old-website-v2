@@ -215,7 +215,7 @@ h1,h2,h3,h4,h5,h6{
   grid-row: 1 / span 3;
 }
 .l-heading{
-  font-size: 2rem;
+  font-size: 3.5rem;
   color: rgba(85, 114, 243, 0.774)
 }
 
@@ -280,7 +280,7 @@ h1,h2,h3,h4,h5,h6{
   grid-template-columns: repeat(2,1fr);
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 80vh;
 }
 #showcase .showcase-content{
   z-index: 1;
@@ -475,6 +475,7 @@ html {
   padding-top: 1.5rem;
   justify-content: center;
 
-
-
+}
+.whatweoffer {
+  font-size: 3rem;
 }
