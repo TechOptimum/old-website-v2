@@ -154,12 +154,7 @@ h1,h2,h3,h4,h5,h6{
   background: #fff;
   padding: 1rem;
 }
-.card:hover{
-  transform: scale(1.05);
-  transition:900ms;
 
-
-}
 
 .bg-dark{
   background: var(--dark-color);
@@ -518,4 +513,48 @@ html {
 
 .testing {
  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+  display: inline-block;
+
+  list-style-type: none;
+  padding: 1em;
+
+}
+
+li span {
+  display: block;
+  font-size: 2.5rem;
+}
+
+
+
+
+.differenttext {
+  color:rgb(221, 136, 80);
+}
+
+.hackathon_image {
+  display:flex;
+  width: 605px;
+  float:right;
 }

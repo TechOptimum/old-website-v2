@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="./CSS/mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+
+  <title>Tech Optimum | Hackathons</title>
+</head>
+<body>
+  <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+  <nav id="main-nav">
+    <div class="container">
+      <img src="img/logo.png" alt="NewsMedia" class="logo">
+      <div class = 'social'>
+        <a href="http://facebook.com.br" target = 'blank'><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="http://twitter.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http://instagram.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="http://youtube.com.br" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a href="join.html" >Join</a></li>
+        <li><a href="hackathon.html" class="current">Hackathons</a></li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+
+  <section id="hackathon">
+    <div class="container">
+      
+        <article class="card">
+          <h1 style="text-align:center" class='l-heading'>Hackathons</h1>
+          <h2> Our next Hackathon competition will be held on <span class="differenttext">June 20th</span></h2>
+
+  <div id="countdown">
+    <ul>
+    
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+
+<script>
+  (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "06/20/",
+      birthday = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+  </script>
+
+  <img class="hackathon_image"src="img/programmers.svg" alt="photo">
+  <h2> What is a "Hackathon"?</h3>
+  <p> A hackathon is a timed event in which teams made up of both technical and business experts get together to collaborate intensively on creative projects. The aim is to design, build and present the most innovative solution to a problem, and then pitch a final concept, prototype or presentation to the stakeholders.</p>
+  <h2>Why should I participate?</h2>
+  <p>Participating in a hacking marathon is an opportunity for multidisciplinary groups to showcase their skills and develop new projects in record time! In a period of 30 hours (or more), participants can self-challenge, show leadership, meet people, and even discover new skills!</p>
+  <h3>Prizes</h3>
+  <p>For our future hackathons, we will have a variety of prizes, follow <span class="differenttext">Tech Optimum</span> on Twitter for more updated regarding hackathons!</p>
+
+       
+ </article>
+
+       
+        
+     
+    </div>
+  </section>
+  
+    <!-- FOOTER -->
+  <footer id = 'main-footer' class = 'py-2'>
+    <div class="container footer-container">
+      <div>
+        <img src="img/logo.png" alt="logo">
+        <p>An orginization led by students to help future leaders of the tech industry.</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Sign up for our monthly newsletter!</p>
+        <form>
+          <input type="email" placeholder="Email:" required>
+          <input type="submit" value="Subscribe" class = 'btn btn-primary'>
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class = 'list'>
+          <li><a href="/join.html">Join</a></li>
+          <li><a href="/about.html#test">Legal</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join our Club</h2>
+        <p>Come check us out, see what we do. You might enjoy it!</p>
+        <a href="#" class="btn btn-secondary">Join Now</a>
+      </div>
+      <div>
+        <p>
+          Copyright Tech Optimum &copy; 2022, All Rights reserved. 
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
