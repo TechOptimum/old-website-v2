@@ -154,6 +154,13 @@ h1,h2,h3,h4,h5,h6{
   background: #fff;
   padding: 1rem;
 }
+.card:hover{
+  transform: scale(1.05);
+  transition:900ms;
+
+
+}
+
 .bg-dark{
   background: var(--dark-color);
   color: #fff;
@@ -503,4 +510,12 @@ html {
   color:rgb(90, 89, 89);
   padding-top: 2rem;
 
+}
+
+.hometitle {
+  font-size: 6rem;
+}
+
+.testing {
+ font-size: 2rem;
 }
