@@ -533,19 +533,24 @@ html {
 
 
 
-li {
-  display: inline-block;
 
+
+
+
+
+.countdowntitle {
+  display:inline-block;
   list-style-type: none;
-  padding: 1em;
-
+  padding: 1.4rem;
+  font-size: 1rem;
+  color: #00DDEB;
+ 
 }
 
-li span {
+.countdowntitle2 {
   display: block;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
-
 
 
 
