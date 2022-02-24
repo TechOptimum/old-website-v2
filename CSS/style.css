@@ -452,6 +452,7 @@ html {
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+  
 }
 
 .legalbutton:active,
@@ -514,25 +515,6 @@ html {
 .testing {
  font-size: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
