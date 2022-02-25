@@ -23,17 +23,32 @@
   <nav id="main-nav">
     <div class="container">
       <img src="img/logo.png" alt="image" class="logo">
-      <div class = 'social'>
-        <a href="http://facebook.com.br" target = 'blank'><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="http://twitter.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="http://instagram.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="http://youtube.com.br" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
-      </div>
+      
       <ul>
         <li><a href="index.html" class="current">Home</a></li>
-        <li><a href="about.html" >About</a></li>
+
+        <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About</a>
+    <div class="dropdown-content">
+      <a href="#">Community</a>
+      <a href="./legal">Legal</a>
+      <a href="#">Leadership</a>
+      <a href="./about.html#team">Partners</a>
+      <a href="#">Join Leadership</a>
+    </div>
+  </li>
+     
         <li><a href="join.html" >Join</a></li>
         <li><a href="hackathon.html">Hackathons</a></li>
+     <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+     
         
       </ul>
     </div>
@@ -54,9 +69,10 @@
     </div>
   </header>
 
-  <section id="home-articles" class="py-2">
+
+    <section id="home-articles" class="py-2">
     <div class="container">
-      <h2 class="whatweoffer">What We Offer</h2>
+      <h2 style="text-align:center" class="whatweoffer">What We Offer</h2>
       <div class="articles-container">
         <article class="card">
           
@@ -140,6 +156,32 @@
       </div>
     </div>
   </section>
+
+
+
+
+
+  <section id="home-articles" class="py-2">
+    <div class="container">
+      <h2 style="text-align:center" class="whatweoffer">Our Socials</h2>
+
+<div class = 'social'>
+        <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-github fa-2x"></i></a>
+        <a class="social-button" href="http://twitter.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i></a>
+        <a class="social-button" href="http://instagram.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i></a>
+        <a class="social-button" href="http://youtube.com.br" target = 'blank'><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+         
+      </div>
+
+  </section>
+
+
+
+
+
+
+  <a class="twitter-timeline" href="https://twitter.com/techoptimum_?ref_src=twsrc%5Etfw">Tweets by techoptimum_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   
   <!-- FOOTER -->
   <footer id = 'main-footer' class = 'py-2'>
@@ -157,11 +199,6 @@
           <button type="submit" class = 'btn btn-primary'>Subscribe Now!</button>
         
         </form>
-
-      
-
-        
-        
 
       </div>
       <div>
