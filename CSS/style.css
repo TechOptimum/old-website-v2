@@ -291,6 +291,8 @@ h1,h2,h3,h4,h5,h6{
   height: 100%;
   opacity: 0.4;
 }
+
+
 #showcase .showcase-container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -304,6 +306,42 @@ h1,h2,h3,h4,h5,h6{
 #showcase .showcase-content p {
   margin-bottom: 1rem;
 }
+
+
+/* community home page*/
+
+#community{
+  color: #fff;
+  background: var(--dark-color);
+  padding: 2rem;
+  position: relative;
+}
+#community:before{
+  content: '';
+  background: url('../img/community-hug.svg') no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+
+#community .community-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+#community .community-content{
+  z-index: 1;
+}
+#community .community-content p {
+  margin-bottom: 1rem;
+}
+
 
 /* Articles */
 #home-articles .articles-container{
@@ -662,4 +700,78 @@ li.dropdown {
 .dropdown:hover .social-links-navbar {
   display: block;
   transition: 200ms;
+}
+
+/*css for community page*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #002e7a;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #0056d6;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #3a88fe;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #53d5fd;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #004d65;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+.bubbles {
+display: inline-block;
+font-family: arial;
+position: relative;
+}
+
+.bubbles h1 {
+position: relative;
+margin: 1em 0 0;
+font-family: 'Luckiest Guy', cursive;
+color: #fff;
+z-index: 2;
+  font-size: 6rem;
+}
+
+.individual-bubble {
+position: absolute;
+border-radius: 100%;
+bottom: 10px;
+background-color: #fff;
+z-index: 1;
 }
