@@ -5,36 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="./CSS/mobile.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="../CSS/mobile.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  
 
-  <title> Tech Optimum | About</title>
+  <title>Tech Optimum | Home</title>
 </head>
+
 <body>
   <div class="bg"></div>
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
+  <!--navbar-->
   <nav id="main-nav">
     <div class="container">
-      <img src="img/logo.png" alt="NewsMedia" class="logo">
-      <div class = 'social'>
-        <a href="http://facebook.com.br" target = 'blank'><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="http://twitter.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="http://instagram.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="http://youtube.com.br" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
-      </div>
+      <img src="../img/logo.png" alt="image" class="logo">
       <ul>
         <li><a href="index.html" >Home</a></li>
-        <li><a href="about.html" class="current">About</a></li>
+
+        <li class="dropdown">
+    <a href="javascript:void(0)" class =""current"class="dropbtn">About</a>
+    <div class="dropdown-content">
+      <a href="#">Community</a>
+      <a href="./legal">Legal</a>
+      <a href="#">Leadership</a>
+      <a href="./about.html#team">Partners</a>
+      <a href="#">Join Leadership</a>
+    </div>
+  </li>
+     
         <li><a href="join.html" >Join</a></li>
         <li><a href="hackathon.html">Hackathons</a></li>
+     <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Social</a>
+    <div class="social-links-navbar"class="dropdown-content">
+       <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-linkedin fa-2x"></i>&zwnj; </a>
+      <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-github fa-2x"></i>&zwnj; </a>
+      <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i>&zwnj; </a>
+      <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i>&zwnj; </a>
+    </div>
+  </li>
+     
+        
       </ul>
     </div>
   </nav>
+  <!--end navbar-->
 
   <section id="about">
     <div class="container">
@@ -211,7 +231,7 @@
   <footer id = 'main-footer' class = 'py-2'>
     <div class="container footer-container">
       <div>
-        <img src="img/logo.png" alt="logo">
+        <img src="../img/logo.png" alt="logo">
         <p>An orginization led by students to help future leaders of the tech industry.</p>
       </div>
       <div>
