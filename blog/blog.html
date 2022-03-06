@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="../CSS/mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  
+
+  <title>Tech Optimum | Home</title>
+</head>
+
+<body>
+  <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+  <!--navbar-->
+  <nav id="main-nav">
+    <div class="container">
+      <img src="../img/logo.png" alt="image" class="logo">
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+
+        <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About</a>
+    <div class="dropdown-content">
+      <a href="#">Community</a>
+      <a href="./legal">Legal</a>
+      <a href="#">Leadership</a>
+      <a href="./about.html#team">Partners</a>
+      <a href="#">Join Leadership</a>
+    </div>
+  </li>
+     
+        <li><a href="join.html" >Join</a></li>
+        <li><a href="hackathon.html">Hackathons</a></li>
+     <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Social</a>
+    <div class="social-links-navbar"class="dropdown-content">
+       <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-linkedin fa-2x"></i>&zwnj; </a>
+      <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-github fa-2x"></i>&zwnj; </a>
+      <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i>&zwnj; </a>
+      <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i>&zwnj; </a>
+    </div>
+  </li>
+     
+        
+      </ul>
+    </div>
+  </nav>
+  <!--end navbar-->
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(1, 2, 4, 1.5);
+  text-align: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  margin: .7rem;
+  margin-top: 20px;
+  border-radius: 10px;
+
+
+}
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  background: url('../img/softwareeng.jpg') no-repeat center center/cover;
+  transition: 300ms;
+}
+.fakeimg:hover {
+  opacity: .8;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(1, 2, 4, 1.5);
+  border-radius: 10px;
+  transition: transform .2s; /* Animation */
+}
+.card:hover {
+  transform: scale(1.009);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+  
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="font-size: 6rem;">Tech Optimum Blog</h1>
+  <h3 style="font-size: 2.5rem;">Weekly Posts</h3>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 class="blog-sub-info">Why YOU should consider becoming a software engineer</h2>
+      <h4 class="blog-sub-info">March 16th, 2022 <span style="color:blue;">Siddharth Duggal</span></h4>
+      <div class="fakeimg" style="height:200px;"></div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+
+  <!-- FOOTER -->
+  <footer id = 'main-footer' class = 'py-2'>
+    <div class="container footer-container">
+      <div>
+        <img src="../img/logo.png" alt="logo">
+        <p>An orginization led by students to help future leaders of the tech industry.</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Sign up for our monthly newsletter!</p>
+
+        <form name="Subscriptions" method="POST" data-netlify="true">
+          <input type="email" name="emailvar"placeholder="Email:" required>
+          <button type="submit" class = 'btn btn-primary'>Subscribe Now!</button>
+        
+        </form>
+
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class = 'list'>
+          <li><a href="/join.html">Join</a></li>
+          <li><a href="/about.html#test">Legal</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join our Club</h2>
+        <p>Come check us out, see what we do. You might enjoy it!</p>
+        <a href="#" class="btn btn-secondary">Join Now</a>
+      </div>
+      <div>
+        <p>
+          Copyright Tech Optimum &copy; 2022, All Rights reserved. 
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

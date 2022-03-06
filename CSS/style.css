@@ -61,7 +61,7 @@ body {
 }
 
 h1 {
-  font-family:monospace;
+  font-family:monospace
 }
 
 @keyframes slide {
@@ -92,7 +92,7 @@ img{
   width: 100%;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Staatliches', cursive;
+  font-family: 'Staatliches';
   margin-bottom: .75rem;
   line-height: 1.3;
 }
@@ -592,7 +592,11 @@ html {
 
 .hackathon_image {
   display:flex;
-  width: 605px;
+  max-width: 100%;
+   width: 100%;
+  max-width: 400px;
+  height: auto;
+ 
   float:right;
 }
 
@@ -752,26 +756,6 @@ svg {
 	100% {stroke-dashoffset: -35%;}
 }
 
-
-.bubbles {
-display: inline-block;
-font-family: arial;
-position: relative;
-}
-
-.bubbles h1 {
-position: relative;
-margin: 1em 0 0;
-font-family: 'Luckiest Guy', cursive;
-color: #fff;
-z-index: 2;
-  font-size: 6rem;
-}
-
-.individual-bubble {
-position: absolute;
-border-radius: 100%;
-bottom: 10px;
-background-color: #fff;
-z-index: 1;
+.blog-sub-info {
+   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
