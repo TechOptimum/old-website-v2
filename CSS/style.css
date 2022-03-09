@@ -788,11 +788,6 @@ svg {
 
 
 
-.container {
-  padding: 64px;
-
-}
-
 .row:after {
   content: "";
   display: table;
