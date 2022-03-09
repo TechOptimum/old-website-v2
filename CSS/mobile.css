@@ -81,5 +81,25 @@
  }
 
 
+/*community page sizing*/
+@media screen and (min-width: 800px) {
+  div.community-page-text-title {
+    font-size: 80px;
+  }
+}
 
-
+@media screen and (max-width: 670px) {
+  div.community-page-text-title {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 400px) {
+  div.community-page-text-title {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 330px) {
+  div.community-page-text-title {
+    font-size: 26px;
+  }
+}
