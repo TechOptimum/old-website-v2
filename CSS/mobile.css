@@ -14,7 +14,7 @@
 }
 
 #main-nav ul li a {
- padding: 0.50rem;
+ padding: 0.30rem;
 }
 
 #home-articles .articles-container {
@@ -29,13 +29,6 @@
  grid-template-columns: 1fr;
  grid-column: 1;
 }
-
-
-
-
-
-
-
 
 @media(max-width:600px) {
   /* stack grid items */
@@ -52,9 +45,7 @@
   #main-footer .footer-container > *:last-child {
    grid-column: 1;
   }
-   
-
-   #main-footer .footer-container > *:first-child,
+  #main-footer .footer-container > *:first-child,
    #main-footer .footer-container > *:nth-child(2),
    #main-footer .footer-container > *:nth-child(3)
    {
