@@ -103,6 +103,7 @@ h1,h2,h3,h4,h5,h6{
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
+  
 }
 .category{
   display: inline-block;
