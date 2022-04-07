@@ -212,6 +212,7 @@ h1,h2,h3,h4,h5,h6{
 .list li a:hover{
   color: var(--primary-color) !important;
 }
+
 .page-container{
   display: grid;
   grid-template-columns: 5fr 2fr;
@@ -221,6 +222,7 @@ h1,h2,h3,h4,h5,h6{
 .page-container > *:first-child{
   grid-row: 1 / span 3;
 }
+
 .l-heading{
   font-size: 3.5rem;
   color: rgba(85, 114, 243, 0.774);
