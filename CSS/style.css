@@ -941,3 +941,95 @@ svg {
     text-align: center;
     padding: 1rem;
 }
+/* Join our team now listings*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+.main-container-jobs {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #c0c0c0;
+  margin-bottom: 1rem;
+}
+.leadership-position-container {
+  display: flex;
+  width: 1040px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.job-posting-card {
+  margin: 10px;
+  margin-bottom: 1rem;
+  background-color: #0a0326;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  transition: 400ms;
+  transition-delay: 100ms;
+}
+
+.job-posting-card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+  background-color: #ff8647;
+}
+.job-posting-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px;
+  min-height: 250px;
+  margin:0;
+  padding-top: 1px;
+}
+.job-posting-card-job-title {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+}
+.job-posting-tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 4px;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+}
+.job-posting-learn-more-button {
+  cursor: pointer;
+  background: #cccccc;
+  border-radius: 30px;
+  font-size: 22px;
+  color: #fff;
+  padding: 12px 30px;
+  background-color: var(--primary-color);
+  transition: 400ms;
+}
+.job-posting-learn-more-button:hover {
+  color: var(--primary-color);
+  background-color: var(--dark-color);
+}
+.job-posting-tag-teal {
+  background-color: #47bcd4;
+}
+.job-posting-tag-purple {
+  background-color: #5e76bf;
+}
+.job-posting-tag-pink {
+  background-color: #cd5b9f;
+}
+
+
+
