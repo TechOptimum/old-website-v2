@@ -15,7 +15,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
 /* moving background */
 body {
   margin:0;
