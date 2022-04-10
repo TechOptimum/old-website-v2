@@ -10,7 +10,7 @@ h3 {
 }
 .hackathon-main-section { 
     max-width:1000px; 
-    padding: 3rem;
+    padding: 2rem;
     background-color: #1a0a53;
     border-radius: 25px;
     margin-left: 3rem;
@@ -21,7 +21,9 @@ h3 {
    background-color: #122453;
     border-radius: 25px;
     margin: 0;
+    margin-bottom: 1rem;
 }
+
 .contact-submission-recieved-title {
     color: white;
     text-align: center;

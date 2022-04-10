@@ -227,7 +227,7 @@ h3, h4, h5, h6 {
 
 /* Navigation Bar */
 #main-nav{
-  background: #fff;
+  background: #ffffff;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -236,8 +236,8 @@ h3, h4, h5, h6 {
 }
 #main-nav .container{
   display: grid;
-  grid-template-columns: 10fr 3fr 2fr;
-  
+  grid-template-columns: 10fr 7fr 2fr;
+  padding: 1rem;
   align-items: center;
 }
 #main-nav .logo{
