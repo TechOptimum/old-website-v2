@@ -1,6 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+body{
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+background: rgb(18,13,106);
+background: linear-gradient(90deg, rgba(18,13,106,1) 3%, rgba(24,24,126,1) 14%, rgba(31,35,122,1) 34%, rgba(41,48,105,1) 69%, rgba(44,53,124,1) 90%, rgba(52,59,116,1) 94%);
+  
 
+}
 .contact-form-section { 
     max-width:420px; 
     margin:50px auto;
@@ -29,7 +36,9 @@
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus { 
+    border: 2px solid #5c0700; 
+}
 
 textarea {
   height: 150px;
@@ -51,9 +60,14 @@ textarea {
   transition: all 0.3s;
   margin-top:-4px;
   font-weight:700;
+  border: 4px solid transparent;
+  border-radius: 40px;
 }
 .contact-submit-button:hover { 
-    background:#CC4949; 
+    background: transparent;
+    border: 3px solid #CC6666;
+    border-radius: 40px;
+    
 }
 
 .contact-submission-recieved-title {
@@ -66,6 +80,6 @@ textarea {
     align-items:center;
     margin-top: 3.25rem;
     border-radius: 25px;
-  border: 3px solid #73AD21;
+    border: 3px solid #73AD21;
     padding: .3rem;
 }
