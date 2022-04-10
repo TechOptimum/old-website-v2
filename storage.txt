@@ -1,39 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../CSS/hackathon.css">
-      <link rel="stylesheet" href="../CSS/style.css">
-  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="../CSS/mobile.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-  <script src="./script.js"></script>
+  <article class="card">
+          <h1 style="text-align:center" class='l-heading'>Hackathons</h1>
+          <h2> Our next Hackathon competition will be held on <span class="differenttext">June 20th</span></h2>
 
-  <title>Tech Optimum | Hackathons</title>
-</head>
-    
-<body>
-    <!--navbar-->
-<header-comp></header-comp>
-  <!--end navbar-->
-<h1 class="contact-submission-recieved-title">Hackathons<br><span class="subtitle-hackathons-title">Tech Optimum</span></h1>
-
-    
-      <div class="row">
-          <div class="column-33">
-    <img class="hackathon-image"src="../img/hackathon-title-picture.jpg">
-          </div>
-                  <div class="column-66">
-<div class="hackathon-main-section">
-
-<div class="timer-subsection-hackathon">
-    <h3 style="color:#00a3d7;">Our next HACKATHON is in...</h3>
   <div id="countdown">
     <ul>
+    
       <li class="countdowntitle"><span class="countdowntitle2" id="days"></span>days</li>
       <li class="countdowntitle"><span class="countdowntitle2"  
       id="hours"></span>Hours</li>
@@ -41,7 +12,7 @@
       <li class="countdowntitle"><span class="countdowntitle2" id="seconds"></span>Seconds</li>
     </ul>
   </div>
-</div>
+
 <script>
   (function () {
   const second = 1000,
@@ -85,10 +56,20 @@
       }, 0)
   }());
   </script>
-</div>
-      </div>
-      </div>
-    <!-- FOOTER -->
-<footer-comp></footer-comp>
-</body>
-</html>
+
+  <img class="hackathon_image"src="img/programmers.svg" alt="photo">
+  <h2> What is a "Hackathon"?</h3>
+  <p> A hackathon is a timed event in which teams made up of both technical and business experts get together to collaborate intensively on creative projects. The aim is to design, build and present the most innovative solution to a problem, and then pitch a final concept, prototype or presentation to the stakeholders.</p>
+  <h2>Why should I participate?</h2>
+  <p>Participating in a hacking marathon is an opportunity for multidisciplinary groups to showcase their skills and develop new projects in record time! In a period of 30 hours (or more), participants can self-challenge, show leadership, meet people, and even discover new skills!</p>
+  <h3>Prizes</h3>
+  <p>For our future hackathons, we will have a variety of prizes, follow <span class="differenttext">Tech Optimum</span> on Twitter for more updated regarding hackathons!</p>
+
+       
+ </article>
+
+       
+        
+     
+    </div>
+  </section>

@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+background: rgb(29,29,89);
+background: linear-gradient(180deg, rgba(29,29,89,1) 9%, rgba(57,57,171,1) 50%, rgba(77,77,196,1) 71%, rgba(104,104,215,1) 88%, rgba(53,61,122,0.8491771708683473) 96%);
+}
+h3 {
+    color: white;
+    font-weight: 150;
+}
+.hackathon-main-section { 
+    max-width:1000px; 
+    padding: 3rem;
+    background-color: #1a0a53;
+    border-radius: 25px;
+    margin-left: 3rem;
+}
+.timer-subsection-hackathon {
+    max-width:500px; 
+    padding: 1rem;
+   background-color: #122453;
+    border-radius: 25px;
+    margin: 0;
+}
+.contact-submission-recieved-title {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: auto;
+    background-color: #1a0a53;
+    max-width: 40rem;
+    align-items:center;
+    margin-top: 3.25rem;
+    border-radius: 25px;
+line-height: 1;
+    padding-top: .3rem;
+    color: orange;
+}
+.subtitle-hackathons-title {
+    font-size: 2rem;
+    margin: 0;
+    padding:0;
+    line-height: 1.5;
+    color: #6d6d6d;
+}
+.hackathon-image {
+    border: 5px solid #ffffff;
+    border-radius: 30px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
