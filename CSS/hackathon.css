@@ -16,7 +16,7 @@ h3 {
     margin-left: 3rem;
 }
 .timer-subsection-hackathon {
-    max-width:500px; 
+    max-width:800px; 
     padding: 1rem;
    background-color: #122453;
     border-radius: 25px;
@@ -48,4 +48,11 @@ line-height: 1;
     border-radius: 30px;
     margin-left: 3rem;
     margin-right: 3rem;
+}
+.countdowntitle-daytitle {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    color: #53d5fd;
+    padding-left: .5rem;
+    border-left: 2px solid #94e3fe;
 }
