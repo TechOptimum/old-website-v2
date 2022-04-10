@@ -5,15 +5,16 @@ body{
 background: rgb(37,37,122);
 background: linear-gradient(278deg, rgba(37,37,122,1) 9%, rgba(64,61,149,1) 59%, rgba(51,60,131,1) 78%, rgba(53,61,122,0.9528186274509804) 94%);
 }
+h3 {
+    color: white;
+    font-weight: 150;
+    
+}
 .contact-form-section { 
     max-width:420px; 
-    margin:50px auto;
     padding: 3rem;
     background-color: #1a0a53;
-    margin-top: 3.25rem;
     border-radius: 25px;
-  border: 3.5px solid #d95000;
-
 }
 
 .feedback-input {
@@ -77,6 +78,5 @@ textarea {
     align-items:center;
     margin-top: 3.25rem;
     border-radius: 25px;
-    border: 3px solid #73AD21;
     padding: .3rem;
 }
