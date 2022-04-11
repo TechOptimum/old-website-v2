@@ -511,7 +511,14 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
-
+  transition-duration: 0.45s;
+}
+.hover{
+  transition-duration: 0.45s;
+}
+.hover:hover{
+  transform: scale(1.05);
+  transition-duration: 0.45s;
 }
 
 .about-section {
@@ -702,14 +709,14 @@ html {
 
 .social {
   text-align: center;
-  padding-top: 1.5rem;
+  padding-top: .7rem;
   padding-bottom: .7rem;
   background-color:rgba(255,255,255,.8);
   width: 100%;
+  border-radius: 5px;
 }
 .social-button {
   padding: 5rem;
-  
   color:#444444;
   transition: 200ms;
 }

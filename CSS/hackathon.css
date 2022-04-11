@@ -14,6 +14,8 @@ h3 {
     background-color: #1a0a53;
     border-radius: 25px;
     margin-left: 3rem;
+    -webkit-box-shadow: 0px 5px 50px 5px #8ba7ff;
+box-shadow: 0px 5px 50px 5px #8ba7ff;
 }
 .timer-subsection-hackathon {
     max-width:800px; 
@@ -22,6 +24,15 @@ h3 {
     border-radius: 25px;
     margin: 0;
     margin-bottom: 1rem;
+}
+.prizes-sub-section-hackathon {
+   max-width:1000px; 
+    padding: 2rem;
+    background-color: #1a0a53;
+    border-radius: 25px;
+    margin-left: 3rem;
+    -webkit-box-shadow: 0px 5px 50px 5px #8ba7ff;
+box-shadow: 0px 5px 50px 5px #8ba7ff;
 }
 
 .contact-submission-recieved-title {
@@ -34,8 +45,8 @@ h3 {
     align-items:center;
     margin-top: 3.25rem;
     border-radius: 25px;
-line-height: 1;
-    padding-top: .3rem;
+    line-height: 1;
+    padding-top: 1rem;
     color: orange;
 }
 .subtitle-hackathons-title {
@@ -50,6 +61,13 @@ line-height: 1;
     border-radius: 30px;
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-top: 1rem;
+}
+.prizes-hackathon-image {
+     margin-top: 1rem;
+    background-color:#1a0a53;
+    border: 5px solid #ffffff;
+    border-radius: 30px;
 }
 .countdowntitle-daytitle {
     font-size: 2.5rem;

@@ -81,10 +81,10 @@ class Header extends HTMLElement{
         <li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">About</a>
           <div class="dropdown-content">
-            <a href="./about/about.html">About</a>
-            <a href="./about/community.html">Community</a>
-            <a href="./about/partners.html">Partners</a>
-            <a href="./about/join-leadership.html">Join Leadership</a>
+            <a href="./about.html">About</a>
+            <a href="./community.html">Community</a>
+            <a href="./partners.html">Partners</a>
+            <a href="./join-leadership.html">Join Leadership</a>
           </div>
         </li>
         <li><a href="join.html" >Join</a></li>

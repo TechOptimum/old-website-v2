@@ -17,7 +17,8 @@ h3 {
     margin-top: 15px;
 }
 
-.feedback-input {
+.feedback-input, 
+.feedback-input-message {
   color:white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
@@ -35,6 +36,12 @@ h3 {
 }
 
 .feedback-input:focus { 
+    border: 2px solid #5c0700; 
+}
+.feedback-input-message {
+    height: 10rem;
+}
+.feedback-input-message:focus {
     border: 2px solid #5c0700; 
 }
 
@@ -79,6 +86,7 @@ textarea {
     margin-top: 3.25rem;
     border-radius: 25px;
     padding: .3rem;
+    
 }
 .contact-form-image {
     padding: 3rem;
