@@ -212,7 +212,7 @@ h3, h4, h5, h6 {
 
 .page-container{
   display: grid;
-  grid-template-columns: 5fr 2fr;
+ /* grid-template-columns: 5fr 2fr;*/
   margin: 2rem 0;
   grid-gap: 1.5rem;
 }
