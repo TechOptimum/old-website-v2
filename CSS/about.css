@@ -2,3 +2,8 @@ body{
 background: rgb(37,37,122);
 background: linear-gradient(278deg, rgba(37,37,122,1) 9%, rgba(64,61,149,1) 59%, rgba(51,60,131,1) 78%, rgba(53,61,122,0.9528186274509804) 94%);
 }
+.container-section-about-sections {
+    background: rgb(37,37,122);
+    margin:0; 
+    border-radius: 15px;
+}
