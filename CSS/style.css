@@ -510,7 +510,8 @@ html {
 }
 
 .aboutus-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 4px 26px 27px 6px rgba(0,0,0,0.68); 
+box-shadow: 4px 26px 27px 6px rgba(0,0,0,0.68);
   margin: 8px;
   transition-duration: 0.45s;
     text-align: center;
@@ -523,6 +524,11 @@ html {
 }
 #aboutus-card img {
     border-radius: 12px;
+    width:  100px;
+    height: 300px;
+    object-fit: cover;
+    -webkit-box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41); 
+box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41);
 }
 .hover{
   transition-duration: 0.45s;
