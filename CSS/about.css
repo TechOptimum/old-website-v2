@@ -7,3 +7,6 @@ background: linear-gradient(278deg, rgba(37,37,122,1) 9%, rgba(64,61,149,1) 59%,
     margin:0; 
     border-radius: 15px;
 }
+.card {
+    background: black;
+}

@@ -408,6 +408,7 @@ h3, h4, h5, h6 {
 }
 
 /* Articles */
+
 #home-articles .articles-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -508,10 +509,20 @@ html {
   height: 6rem;
 }
 
-.card {
+.aboutus-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
   transition-duration: 0.45s;
+    text-align: center;
+    background-color: #001e57;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#aboutus-card h2 {
+    color:#c0c0c0;
+}
+#aboutus-card img {
+    border-radius: 12px;
 }
 .hover{
   transition-duration: 0.45s;
@@ -639,7 +650,6 @@ html {
 
 @media (min-width: 768px) {
   .legalbutton {
-    font-size: 24px;
     min-width: 196px;
   }
 }
@@ -662,7 +672,7 @@ html {
 }
 .executiveprofile {
   font-size: 2rem;
-  color:rgb(90, 89, 89);
+  color:rgb(255, 255, 255);
 }
 .foundertitle {
   font-size: 2rem;
