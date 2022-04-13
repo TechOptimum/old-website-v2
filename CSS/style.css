@@ -724,15 +724,19 @@ box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41);
 }
 
 .social {
-  text-align: center;
-  padding-top: .7rem;
-  padding-bottom: .7rem;
-  background-color:rgba(255,255,255,.8);
-  width: 100%;
-  border-radius: 5px;
+      text-align: center;
+      justify-content: center;
+      padding-top: .7rem;
+      padding-bottom: .7rem;
+      background-color:rgba(255,255,255,.8);
+      width: 60%;
+      border-radius: 5px;
+      margin: auto;
+      width: 60%;
+      padding: 10px;
 }
 .social-button {
-  padding: 5rem;
+  padding: 1.5rem;
   color:#444444;
   transition: 200ms;
 }
@@ -881,6 +885,7 @@ svg {
 
 .twitter-text-color {
   color: #1DA1F2;
+    background-color: black;
 }
 
 .community-page-text-title {
@@ -920,6 +925,9 @@ svg {
   content: "";
   display: table;
   clear: both
+}
+.row {
+    align:center;
 }
 
 .column-66 {
@@ -1056,3 +1064,13 @@ svg {
     color: #74a7fe;
     transform: scale(1.4); 
 }
+.container-section-about-sections {
+    background: rgb(37,37,122);
+    margin:0; 
+    border-radius: 15px;
+}
+#twitter-section .twitter-timeline a {
+     border: 3px solid #f1f1f1;
+    border: 20px;
+}
+
