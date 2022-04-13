@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./jobs/jobs.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" media = 'screen and (max-width: 1070px)' href="./CSS/mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="script.js"></script>
+  <title>Tech Optimum | Application/title>
+     <link rel="icon" type="image/x-icon" href="/img/Aboutinfo.png">
+</head>
+
+<body>
+  <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+  <!--navbar-->
+  <header-comp></header-comp>
+  
+  <!--end navbar-->
+
+ <h1 id="title">Application Form</h1>
+<div id="form-container">
+  <p id="description">Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</p>
+  <form>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="name">* Full Name: </label>
+      </div>
+  <div class="rightTab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your full name" required>
+      </div>
+   </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="email-label" for="email">* Email: </label>
+      </div>
+      <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+      </div>
+    </div>
+<div class="rowTab">
+      <div class="labels">
+        <label id="number-label" for="age">* Age: </label>
+      </div>
+      <div class="rightTab">
+        <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="currentPos">Which option best describes your current role?</label>
+      </div>
+      <div class="rightTab">
+        <select id="dropdown" name="currentPos" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option  value="student">Student</option>
+      <option value="job">Full Time Job</option>
+     <option value="remote-job">Remote Job</option>
+     <option value="intern">Intern</option>
+      <option value="other">Other</option>
+    </select>
+      </div>
+    </div>
+<div class="rowTab">
+      <div class="labels">
+        <label for="userRating">* Would you like to list references?</label>
+      </div>
+      <div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+          <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+        </ul>
+      </div>
+    </div>
+<div class="rowTab">
+      <div class="labels">
+        <label for="most-like">Which position would you like to apply for? </label>
+      </div>
+      <div class="rightTab">
+        <select id="most-like" name="mostLike" class="dropdown">
+      <option disabled selected value>Select an option</option>
+      <option value="front-end">Front-end</option>
+      <option value="fullstack">Fullstack</option>
+      <option value="projectManager">Project Manager</option>
+      <option value="javaDeveloper">Java Developer</option>
+      <option value="artificialintelligenceExpert">AI expert</option>
+    </select>
+      </div>
+    </div>
+<div class="rowTab">
+      <div class="labels">
+        <label for="preferences">Which programming languages do you know?</label>
+      </div>
+      <div class="rightTab">
+        <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Java</label></li>
+          <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Python</li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">JavaScript</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">C++</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Swift</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Ruby</label></li>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">.NET</label></li>
+          <li class="checkbox"><label>
+        </ul>
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="comments">Any Comments?</label>
+      </div>
+      <div class="rightTab">
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+    </div>
+  <div id="wrapper">
+    <button id="submit" type="submit">Submit</button> </div>
+  </form>
+
+</div>
+  
+  
+  <!-- FOOTER -->
+<footer-comp></footer-comp>
+</body>
+</html>

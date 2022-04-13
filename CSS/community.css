@@ -1,0 +1,31 @@
+body{
+background: rgb(37,37,122);
+background: linear-gradient(278deg, rgba(37,37,122,1) 9%, rgba(64,61,149,1) 59%, rgba(51,60,131,1) 78%, rgba(53,61,122,0.9528186274509804) 94%);
+}
+.container-section-about-sections {
+    background: rgb(37,37,122);
+    margin:0; 
+    border-radius: 15px;
+}
+.card {
+    background: black;
+}
+.community-join-button {
+    color: orange;
+	background: black;
+	background-color: black;
+	border-radius:14px;
+	border:4.7px solid #1a0a53;
+	display:inline-block;
+	cursor:pointer;
+	font-size:48px;
+	padding:14px 16px;
+	text-decoration:none;
+    transition: 400ms;
+    margin-top: 1rem;
+}
+.community-join-button:hover {
+	background: transparent;
+	background-color: transparent;
+    color: white;
+}
