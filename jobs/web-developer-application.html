@@ -4,132 +4,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./jobs/jobs.css">
-  <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="stylesheet" media = 'screen and (max-width: 1070px)' href="./CSS/mobile.css">
+  <link rel="stylesheet" href="../CSS/jobs.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="../CSS/mobile.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <script src="../script.js"></script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <script src="script.js"></script>
-  <title>Tech Optimum | Application/title>
-     <link rel="icon" type="image/x-icon" href="/img/Aboutinfo.png">
+  <title>Tech Optimum | application</title>
 </head>
 
 <body>
-  <div class="bg"></div>
-<div class="bg bg2"></div>
-<div class="bg bg3"></div>
-  <!--navbar-->
-  <header-comp></header-comp>
+ 
+ <header-comp></header-comp>
   
-  <!--end navbar-->
 
- <h1 id="title">Application Form</h1>
-<div id="form-container">
-  <p id="description">Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</p>
-  <form>
-    <div class="rowTab">
-      <div class="labels">
-        <label id="name-label" for="name">* Full Name: </label>
-      </div>
-  <div class="rightTab">
-        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your full name" required>
-      </div>
-   </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label id="email-label" for="email">* Email: </label>
-      </div>
-      <div class="rightTab">
-        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
-      </div>
+  <section id="about">
+    <div class="container">
+      <div class="page-container">
+          <div class="container-section-about-sections">
+       
+            <div class="container" style=" background: rgb(13,255,220);
+background: linear-gradient(101deg, rgba(13,255,220,1) 9%, rgba(188,255,244,1) 26%, rgba(148,232,217,1) 50%, rgba(182,238,230,0.9514180672268907) 71%, rgba(77,196,179,0.835171568627451) 88%, rgba(175,244,234,0.7511379551820728) 96%); border-radius: 20px; margin: 1.25rem;">
+  <div class="row">
+    <div class="column-33">
+      <img src="../img/join-leadership-we-are-hiring.png" alt="Workshops" width="500" >
     </div>
-<div class="rowTab">
-      <div class="labels">
-        <label id="number-label" for="age">* Age: </label>
-      </div>
-      <div class="rightTab">
-        <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
-      </div>
+    <div class="column-66">
+      <h1 class="large-font" style="color:black;"><b>Apply for the Web Developer position</b></h1>
+      <p><span style="font-size:30px">As a web developer, you will be developing the tech optimum website & dashboard.</p>
     </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label for="currentPos">Which option best describes your current role?</label>
-      </div>
-      <div class="rightTab">
-        <select id="dropdown" name="currentPos" class="dropdown">
-      <option disabled value>Select an option</option>
-      <option  value="student">Student</option>
-      <option value="job">Full Time Job</option>
-     <option value="remote-job">Remote Job</option>
-     <option value="intern">Intern</option>
-      <option value="other">Other</option>
-    </select>
-      </div>
-    </div>
-<div class="rowTab">
-      <div class="labels">
-        <label for="userRating">* Would you like to list references?</label>
-      </div>
-      <div class="rightTab">
-        <ul style="list-style: none;">
-          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
-          <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
-        </ul>
-      </div>
-    </div>
-<div class="rowTab">
-      <div class="labels">
-        <label for="most-like">Which position would you like to apply for? </label>
-      </div>
-      <div class="rightTab">
-        <select id="most-like" name="mostLike" class="dropdown">
-      <option disabled selected value>Select an option</option>
-      <option value="front-end">Front-end</option>
-      <option value="fullstack">Fullstack</option>
-      <option value="projectManager">Project Manager</option>
-      <option value="javaDeveloper">Java Developer</option>
-      <option value="artificialintelligenceExpert">AI expert</option>
-    </select>
-      </div>
-    </div>
-<div class="rowTab">
-      <div class="labels">
-        <label for="preferences">Which programming languages do you know?</label>
-      </div>
-      <div class="rightTab">
-        <ul id="preferences" style="list-style: none;">
-          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Java</label></li>
-          <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Python</li>
-          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">JavaScript</label></li>
-          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">C++</label></li>
-          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Swift</label></li>
-          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Ruby</label></li>
-          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">.NET</label></li>
-          <li class="checkbox"><label>
-        </ul>
-      </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label for="comments">Any Comments?</label>
-      </div>
-      <div class="rightTab">
-        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
-      </div>
-    </div>
-  <div id="wrapper">
-    <button id="submit" type="submit">Submit</button> </div>
-  </form>
+  </div>
+</div>
+
+  <!-- TEAM SECTION meetourteam.png-->
+
+                        
+</div>
+          
+<div style="padding: 1rem;"class="small-margin container-section-about-sections">
+    
+<form class="form">
+  <h2 class="apply-title">Web Developer Volunteer Application</h2>
+  <p type="Name:"><input placeholder="Write your name here.."></input></p>
+  <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+ 
+<p type="Why are you interested in joining the Tech Optimum development team?"><textarea type="text"name="text" class="feedback-input-message" placeholder="What would you like to contact us about?" required> </textarea></p>
+    <p type="How would you describe your previous web development experience?"><textarea type="text"name="text" class="feedback-input-message" placeholder="What would you like to contact us about?" required> </textarea></p>
+    
+     <p type="What sets you apart from other applications?"><textarea type="text"name="text" class="feedback-input-message" placeholder="What would you like to contact us about?" required> </textarea></p>
+<p type="What sets you apart from other applications?"><textarea type="text"name="text" class="feedback-input-message" placeholder="What would you like to contact us about?" required> </textarea></p>
+    <p type="Is there anything else you would like to let us know?"><textarea type="text"name="text" class="feedback-input-message" placeholder="What would you like to contact us about?" required> </textarea></p>
+    
+  <button>Submit Application</button>
+  <div class="veryimportantdivcontainer">
+    <span></span>
+    Questions?
+    <span class="fa fa-envelope-o"></span> contact.techoptimum.org
+  </div>
+</form>
 
 </div>
+
+      </div>
+    </div>
+  </section>
   
-  
-  <!-- FOOTER -->
+    <!-- FOOTER -->
 <footer-comp></footer-comp>
 </body>
 </html>
