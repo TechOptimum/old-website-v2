@@ -16,16 +16,47 @@ p {
 .community-join-button {
 	border-radius:14px;
 	border:4.7px solid #1a0a53;
-	font-size:48px;
+	font-size:42px;
     margin-top: 1.5rem;
 }
 .community-join-button:hover {
 	background: transparent;
 	background-color: transparent;
-
 }
 
 .community-row {
     padding: 0;
     margin: 0;
+}
+
+.community-blog-preview-post {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    background-color: black;
+}
+#community-blog-preview-post {
+    background-color: #3a3a3a;
+    position: relative;
+}
+
+#community-blog-preview-post h1{
+    float: left;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 300ms;
+    text-align: center;
+}
+#community-blog-preview-post h2{
+    float: right;
+    color: #b9b9b9;
+    font-size: .9rem;
+    position: absolute; 
+    bottom: 0;
+    letter-spacing: .8px;
+
+}
+#community-blog-preview-post h1:hover{
+    float: left;
+    color: #88d4d0;
 }
