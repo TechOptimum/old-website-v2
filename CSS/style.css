@@ -136,7 +136,8 @@ h3, h4, h5, h6 {
   background: var(--dark-color);
   color: #fff;
   padding: 0.5rem 1.5rem;
-  transition: 600ms;
+  transition: 400ms;
+  border-radius: 4px;
 }
 .btn-light{
   background: var(--light-color);
@@ -158,8 +159,8 @@ h3, h4, h5, h6 {
 .btn-primary:hover {
     color: white;
     background: transparent;
-    transition: 500ms;
-    border: 2px solid #f1f1f1;
+    transition: 300ms;
+   border: 2px solid var(--primary-color);
 }
 .btn-block{
   display: block;
@@ -170,6 +171,7 @@ h3, h4, h5, h6 {
   background: #ffffff;
   padding: .7rem;
   text-align: center;
+  border-radius: 8px;
 }
 
 .bg-dark{
@@ -815,8 +817,6 @@ li.dropdown {
   text-align: center;
   transition: 200ms;
 }
-
-.dropdown-content a:hover {background-color: #77bb41;}
 
 .dropdown:hover .dropdown-content {
   display: block;

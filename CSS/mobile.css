@@ -119,3 +119,7 @@
 .countdowntitle-daytitle {
     margin: 0;
 }
+.box-sub-containers {
+    margin: 1rem !important;
+    padding: 1rem;
+}
