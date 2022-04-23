@@ -25,7 +25,7 @@
 body{
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
-  background-color: #2d2a60;
+  background-color: #242256;
 }
 /* moving background 
 body {
@@ -185,6 +185,13 @@ h3, h4, h5, h6 {
 .bg-secondary{
   background: var(--secondary-color);
   color: #fff;
+}
+.bg-custom-123 {
+    background: #3d6a89 !important;
+    color: white !important;
+}
+.bg-custom-123 a {
+    color:white; !important;
 }
 .bg-dark h1,
 .bg-dark h2,
@@ -554,8 +561,8 @@ box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41);
   transition-duration: 0.45s;
 }
 .hover:hover{
-  transform: scale(1.05);
-  transition-duration: 0.45s;
+  transform: scale(1.02);
+  transition-duration: 0.5s;
 }
 
 .about-section {
@@ -691,6 +698,7 @@ box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41);
 }
 .whatweoffer {
   font-size: 3.5rem;
+    color: white;
 }
 .aboutsubtitle {
   font-size: 2.5rem;

@@ -14,19 +14,18 @@ class Footer extends HTMLElement{
 <p>Recieve weekly emails from Tech Optimum!</p>
         <form name='Subscriptions' method='POST' data-netlify='true'>
           <input type='email' name='emailvar'placeholder='Email:' required>
-          <button type='submit' class = 'btn btn-primary'>Subscribe Now!</button>
-        
+          <button type='submit' class = 'btn btn-primary'>Subscribe Now!</button>   
         </form>
 
       </div>
       <div>
         <h3>About</h3>
         <ul class = 'list'>
-          <li><a href='https://dashboard.techoptimum.org/'>Community</a></li>
-          <li><a href='/about.html#test'>Partners</a></li>
+          <li><a href='./community.html'>Community</a></li>
+          <li><a href='/partners.html'>Partners</a></li>
           <li><a href='/about.html'>About</a></li>
           <li><a href='/contact.html'>Contact us</a>
-        <li><a href='/contact.html'>Join our Team</a>
+        <li><a href='/join-leadership.html'>Join our Team</a>
 </li>
         </ul>
       </div>
@@ -35,7 +34,7 @@ class Footer extends HTMLElement{
         <h3>Miscellaneous</h3>
         <ul class = 'list'>
           <li><a href='/join.html'>Become a Member</a></li>
-          <li><a href='/about.html'>Workshops</a></li>
+          <li><a href='https://dashboard.techoptimum.org.html'>Workshops</a></li>
           <li><a href='/contact.html'>Blog</a></li>
           <li><a href='/contact.html'>Join our Slack</a></li>
         </ul>
