@@ -79,19 +79,20 @@ textarea {
 }
 
 .contact-submission-recieved-title {
-    color: white;
+    color: #d6d6d6;
     text-align: center;
     font-size: 3.5rem;
     margin: auto;
     background-color: #00143b;
-    max-width: 40rem;
+    max-width: 50rem;
     align-items:center;
     margin-top: 3.25rem;
     border-radius: 25px;
     padding: .3rem;
-
     
 }
+
+
 .contact-form-image {
     padding: 3rem;
     background-color: #00143b;
@@ -99,6 +100,11 @@ textarea {
     -webkit-box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22); 
 box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22);
 }
+    
 span {
-    color: #f99500;
+    	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #00143b;
+  text-shadow: 2px 2px #f99500, 7px 7px #000000;
 }
