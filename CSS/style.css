@@ -2,7 +2,7 @@
   --primary-color: #ff8647;
   --secondary-color: #f99500;
   --light-color: #f1f1f1;
-  --dark-color: #333;
+  --dark-color: #00143b;
   --max-width: 1100px;
 }
 .category{
@@ -227,12 +227,7 @@ h3, h4, h5, h6 {
   padding: 3rem;
 }
 
-.list li{
-  width: 90%;
-}
-.list li a:hover{
-  color: var(--primary-color) !important;
-}
+
 
 .page-container{
   display: grid;
@@ -483,11 +478,12 @@ h3, h4, h5, h6 {
   grid-gap: .5rem;
 }
 #main-footer .footer-container > *:last-child{
-  background: #444;
+  background: #042952;
   grid-column: 1 / span 5;
   padding: 0.5rem;
   text-align: center;
   font-size: 0.8rem;
+  border-radius: 7px;
 }
 #main-footer .footer-container input[type='email']{
   width: 90%;
@@ -512,7 +508,15 @@ h3, h4, h5, h6 {
     padding-bottom: .6rem;
     color:var(--primary-color);
 }
-
+.list li{
+  width: 90%;
+}
+.list li a{
+    color: #056a9f !important;
+}
+.list li a:hover{
+  color: var(--primary-color) !important;
+}
 
 html {
   box-sizing: border-box;

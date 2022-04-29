@@ -1,0 +1,32 @@
+body {
+background: rgb(2,57,163);
+background: linear-gradient(180deg, rgba(2,57,163,1) 0%, rgba(0,36,106,1) 60%, rgba(0,18,51,1) 100%);
+}
+
+.column-33 {
+    text-align:center; 
+}
+h1{
+    font-size: 3rem;
+    color: black;
+    color: transparent !important;
+	text-align: center;
+	letter-spacing: .2em;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #96d35f;
+	filter: drop-shadow(3px 3px 1px #838b85);
+}
+h2 {
+    font-size: 2rem;
+    color:white;
+}
+p {
+    color: white;
+    font-size: 18px;
+}
+#sixsix{
+     padding: 70px 0;
+}
+img {
+    border-radius: 15px;
+}
