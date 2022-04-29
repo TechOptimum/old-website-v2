@@ -53,7 +53,7 @@ class Footer extends HTMLElement{
       <div>
         <h2>Become a member now!</h2>
         <p>Come check us out, see what we do. You might enjoy it!</p>
-        <a href='#' class='btn btn-primary'>Join Now</a>
+        <a href='./coming-soon.html' class='btn btn-primary'>Join Now</a>
       </div>
       <div>
         <p>
@@ -98,7 +98,7 @@ class Header extends HTMLElement{
             <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i>&zwnj; </a>
           </div>
         </li>
-         <li><a href="#">Dashboard</a></li>
+         <li><a href="./coming-soon.html">Dashboard</a></li>
         <li><a href="contact.html">Contact</a></li>
 
         <li><a href="calendar.html"><i class="fa fa-fw fa-calendar"></i> </a></li>
