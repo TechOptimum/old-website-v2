@@ -512,7 +512,7 @@ h3, h4, h5, h6 {
   width: 90%;
 }
 .list li a{
-    color: #056a9f !important;
+    color:  #8f8f8f !important;
 }
 .list li a:hover{
   color: var(--primary-color) !important;
