@@ -1,6 +1,9 @@
 body{
-background: rgb(37,37,122);
-background: linear-gradient(278deg, rgba(37,37,122,1) 9%, rgba(64,61,149,1) 59%, rgba(51,60,131,1) 78%, rgba(53,61,122,0.9528186274509804) 94%);
+background: rgb(87,21,173);
+background: -moz-linear-gradient(45deg, rgba(87,21,173,1) 0%, rgba(87,13,116,1) 46%, rgba(0,28,83,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(87,21,173,1) 0%, rgba(87,13,116,1) 46%, rgba(0,28,83,1) 100%);
+background: linear-gradient(45deg, rgba(87,21,173,1) 0%, rgba(87,13,116,1) 46%, rgba(0,28,83,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5715ad",endColorstr="#001c53",GradientType=1);
 }
 .container-section-about-sections {
     background: rgb(37,37,122);
@@ -13,10 +16,13 @@ background: linear-gradient(278deg, rgba(37,37,122,1) 9%, rgba(64,61,149,1) 59%,
 p {
     color:white;
 }
+h1 {
+    color: white !important;
+}
 .community-join-button {
 	border-radius:14px;
 	border:4.7px solid #1a0a53;
-	font-size:42px;
+	font-size:22px;
     margin-top: 1.5rem;
 }
 .community-join-button:hover {
@@ -28,7 +34,13 @@ p {
     padding: 0;
     margin: 0;
 }
-
+span {
+        letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ff6a00;
+  text-shadow: 2px 2px #831100, 7px 7px #000000;
+}
 .community-blog-preview-post {
     margin: 1rem;
     padding: 1rem;
