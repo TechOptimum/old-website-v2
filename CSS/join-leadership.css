@@ -1,0 +1,17 @@
+body {
+    background: rgb(28,179,78);
+background: -moz-linear-gradient(45deg, rgba(28,179,78,1) 0%, rgba(13,116,94,1) 46%, rgba(0,49,83,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(28,179,78,1) 0%, rgba(13,116,94,1) 46%, rgba(0,49,83,1) 100%);
+background: linear-gradient(45deg, rgba(28,179,78,1) 0%, rgba(13,116,94,1) 46%, rgba(0,49,83,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1cb34e",endColorstr="#003153",GradientType=1);
+}
+p {
+    color:white;
+}
+h1 {
+    color: white !important;
+}
+.community-row {
+    padding: 0;
+    margin: 0;
+}

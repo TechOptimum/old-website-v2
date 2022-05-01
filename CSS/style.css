@@ -1030,6 +1030,7 @@ svg {
   width: 300px;
   transition: 400ms;
   transition-delay: 100ms;
+  height: 500px;
 }
 
 .job-posting-card-header img {
@@ -1050,7 +1051,7 @@ svg {
   padding-top: 1px;
 }
 .job-posting-card-job-title {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     padding: 0;
     margin: 0;
 }
@@ -1111,3 +1112,6 @@ svg {
     margin: auto;
 }
 
+.subscribe-pop-up-form {
+    margin: 0 !important;
+}
