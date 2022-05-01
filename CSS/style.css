@@ -3,7 +3,7 @@
   --secondary-color: #f99500;
   --light-color: #f1f1f1;
   --dark-color: #00143b;
-  --max-width: 1100px;
+  --max-width: 1200px;
 }
 .category{
   --sports-color: #f99500;
@@ -541,12 +541,11 @@ html {
 }
 
 .aboutus-card {
-  -webkit-box-shadow: 4px 26px 27px 6px rgba(0,0,0,0.68); 
-box-shadow: 4px 26px 27px 6px rgba(0,0,0,0.68);
+
   margin: 8px;
   transition-duration: 0.45s;
     text-align: center;
-    background-color: #001e57;
+
     padding: 1rem;
     border-radius: 20px;
 }
@@ -554,8 +553,10 @@ box-shadow: 4px 26px 27px 6px rgba(0,0,0,0.68);
     color:#c0c0c0;
 }
 #aboutus-card img {
+    border: 7px solid black;
     border-radius: 12px;
-    width:  100px;
+    width: 80% !important;
+    width:  280px;
     height: 300px;
     object-fit: cover;
     -webkit-box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41); 
