@@ -57,7 +57,7 @@ class Footer extends HTMLElement{
       </div>
       <div>
         <p>
-          Copyright Tech Optimum &copy; 2022, All Rights reserved.  Made with ♥️ by the <span style='color:orange;'>Tech Optimum</span> team.
+          Copyright Tech Optimum &copy; 2022, All Rights reserved.  Made with ♥️ by the Tech Optimum team.
         </p>
       </div>
     </div>

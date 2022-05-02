@@ -503,6 +503,14 @@ h3, h4, h5, h6 {
   transition: 200ms;
   font-weight: 100;
 }
+#main-footer span {
+       letter-spacing: none !important;
+  -webkit-text-fill-color: none !important;
+  -webkit-text-stroke-width: none !important;
+  -webkit-text-stroke-color: none !important;
+  text-shadow: none !important;
+}
+
 #main-footer h3 {
     padding-top: .65rem;
     padding-bottom: .6rem;
