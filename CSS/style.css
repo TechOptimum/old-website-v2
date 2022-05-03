@@ -110,7 +110,7 @@ h3, h4, h5, h6 {
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
-  
+
 }
 .category{
   display: inline-block;
@@ -232,7 +232,7 @@ h3, h4, h5, h6 {
 .page-container{
   display: grid;
  /* grid-template-columns: 5fr 2fr;*/
-  margin: 2rem 0;
+  margin: 5rem 0;
   grid-gap: 1.5rem;
 }
 .page-container > *:first-child{
@@ -259,13 +259,14 @@ position: -webkit-fixed;
    -webkit-box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
 -moz-box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
 box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
+    margin-bottom: 3rem;
     
 }
 
 #main-nav .container{
   display: grid;
   grid-template-columns: 10fr 7fr 2fr;
-  padding: .5rem;
+
   align-items: center;
 }
 #main-nav .logo{
