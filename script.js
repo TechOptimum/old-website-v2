@@ -89,20 +89,9 @@ class Header extends HTMLElement{
         <li><a href="join.html" >Join</a></li>
         <li><a href="hackathon.html">Hackathons</a></li>
         
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">Social</a>
-          <div class="social-links-navbar"class="dropdown-content">
-             <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-linkedin fa-2x"></i>&zwnj; </a>
-            <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-github fa-2x"></i>&zwnj; </a>
-            <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i>&zwnj; </a>
-            <a class="social-button"href="http://facebook.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i>&zwnj; </a>
-          </div>
-        </li>
+
          <li><a href="./coming-soon.html">Dashboard</a></li>
         <li><a href="contact.html">Contact</a></li>
-
-        <li><a href="calendar.html"><i class="fa fa-fw fa-calendar"></i> </a></li>
-     
         
       </ul>
     </div>
