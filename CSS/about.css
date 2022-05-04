@@ -18,10 +18,16 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#180ce3",endCo
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #77bb41;
   text-shadow: 2px 2px #0042aa, 7px 7px #000000;
+
+
 }
 p {
     color: white;
 }
 h1 {
     color: white;
+    
+.aboutus-card{
+     -webkit-box-shadow: 5px 16px 50px 19px #27FFEA; 
+box-shadow: 5px 16px 50px 19px #27FFEA !important;
 }

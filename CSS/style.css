@@ -138,6 +138,9 @@ h3, h4, h5, h6 {
   padding: 0.5rem 1.5rem;
   transition: 400ms;
   border-radius: 4px;
+-webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
+box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
+
 }
 .btn-light{
   background: var(--light-color);
@@ -557,14 +560,15 @@ html {
 }
 
 .aboutus-card {
-
   margin: 8px;
   transition-duration: 0.45s;
     text-align: center;
-
     padding: 1rem;
     border-radius: 20px;
+    -webkit-box-shadow: 5px 42px 50px -16px rgba(39,255,234,0.41); 
+box-shadow: 5px 42px 50px -16px rgba(39,255,234,0.41);
 }
+
 #aboutus-card h2 {
     color:#c0c0c0;
 }
