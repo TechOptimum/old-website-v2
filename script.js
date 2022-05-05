@@ -36,17 +36,17 @@ class Footer extends HTMLElement{
           <li><a href='/join.html'>Become a Member</a></li>
           <li><a href='https://dashboard.techoptimum.org.html'>Workshops</a></li>
           <li><a href='/contact.html'>Blog</a></li>
-          <li><a href='/contact.html'>Join our Slack</a></li>
+          <li><a href='https://discord.gg/w7cymgdRBH'>Join our Community</a></li>
         </ul>
       </div>
 
      <div>
-        <h3>Social Media</h3>
+        <h3>Find us on</h3>
         <ul class = 'list'>
-          <li><a href='/join.html'>Instagram</a></li>
-          <li><a href='/about.html'>Twitter</a></li>
-          <li><a href='/contact.html'>LinkedIn</a></li>
-          <li><a href='/contact.html'>Github</a></li>
+          <li><a href='https://www.instagram.com/techoptimum_/'>Instagram</a></li>
+          <li><a href='https://twitter.com/TechOptimumHQ'>Twitter</a></li>
+          <li><a href='https://www.linkedin.com/company/78818978'>LinkedIn</a></li>
+          <li><a href='https://github.com/TechOptimum'>Github</a></li>
         </ul>
       </div>
         
