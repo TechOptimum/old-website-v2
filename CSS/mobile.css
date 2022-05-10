@@ -1,25 +1,19 @@
 /* navigation */
-
 #main-nav .container {
  grid-template-columns: 1fr;
  grid-gap: .5rem;
 }
-
 #main-nav ul,
 #main-nav .logo {
  justify-self: center;
 }
-
-
 #main-nav ul li a {
  padding: 0.30rem;
  font-size: .85rem;
 }
-
 #home-articles .articles-container {
  grid-template-columns: repeat(2, 1fr);
 }
-
 #home-articles .articles-container > *:first-child {
  grid-template-columns: 1fr;
  grid-column: 1;
@@ -28,7 +22,6 @@
  grid-template-columns: 1fr;
  grid-column: 1;
 }
-
 @media(max-width:600px) {
   /* stack grid items */
   /* stack home articles */
@@ -37,10 +30,6 @@
   #main-footer .footer-container {
    grid-template-columns: 1fr;
   }
-    
-
-
-
   /* must clear the span so set grid-column to 1 */
   #main-footer .footer-container > *:last-child {
    grid-column: 1;
@@ -50,33 +39,25 @@
    #main-footer .footer-container > *:nth-child(3),
     #main-footer .footer-container > *:nth-child(4)
    */
-
-
    /* about page */
    .page-container {
     grid-template-columns: 1fr;
     text-align: center;
    }
-
-
     /* clear span   */
    .page-container > *:first-child {
     grid-row: 1;
    }
-
    .l-heading {
     font-size: 2rem;
    }
  }
-
-
 /*community page sizing*/
 @media screen and (min-width: 800px) {
   div.community-page-text-title {
     font-size: 80px;
   }
 }
-
 @media screen and (max-width: 670px) {
   div.community-page-text-title {
     font-size: 38px;
@@ -93,33 +74,3 @@
   }
 }
 
-
-.hackathon-main-section { 
-    margin: 0;
-}
-.timer-subsection-hackathon {
-    margin: 0;
-}
-.prizes-sub-section-hackathon {
-    margin: 0;
-}
-.contact-submission-recieved-title {
-    margin: auto;
-    margin: 0;
-}
-.subtitle-hackathons-title {
-    margin: 0;
-}
-.hackathon-image {
-    margin: 0;
-}
-.prizes-hackathon-image {
-    margin: 0;
-}
-.countdowntitle-daytitle {
-    margin: 0;
-}
-.box-sub-containers {
-    margin: 1rem !important;
-    padding: 1rem;
-}
