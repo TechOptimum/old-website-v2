@@ -9,12 +9,11 @@
 #main-nav .logo {
  justify-self: center;
 }
-
-
 #main-nav ul li a {
  padding: 0.30rem;
  font-size: .85rem;
 }
+
 
 #home-articles .articles-container {
  grid-template-columns: repeat(2, 1fr);
@@ -92,34 +91,6 @@
     font-size: 26px;
   }
 }
-
-
-.hackathon-main-section { 
-    margin: 0;
-}
-.timer-subsection-hackathon {
-    margin: 0;
-}
-.prizes-sub-section-hackathon {
-    margin: 0;
-}
-.contact-submission-recieved-title {
-    margin: auto;
-    margin: 0;
-}
-.subtitle-hackathons-title {
-    margin: 0;
-}
-.hackathon-image {
-    margin: 0;
-}
-.prizes-hackathon-image {
-    margin: 0;
-}
-.countdowntitle-daytitle {
-    margin: 0;
-}
-.box-sub-containers {
-    margin: 1rem !important;
-    padding: 1rem;
+img {
+    width: 70%;
 }
