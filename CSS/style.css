@@ -269,7 +269,6 @@ box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
 #main-nav .container{
   display: grid;
   grid-template-columns: 10fr 7fr 2fr;
-
   align-items: center;
 }
 #main-nav .logo{
@@ -743,6 +742,11 @@ box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41);
 
 .hometitle {
   font-size: 5rem;
+   letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #339bf6;
+  text-shadow: .5px .5px #1d2482, 7px 7px #11053b;
 }
 
 .testing {
@@ -1140,3 +1144,44 @@ svg {
 #sixsix{
      padding: 70px 0;
 }
+
+
+.animated-glow-css{
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.01);
+}
+.animated-glow-css:after {
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transform: scale(0.9) translateZ(0);
+    filter: blur(45px);
+    background: linear-gradient(
+      to left,
+      #ff5770,
+      #e4428d,
+      #c42da8,
+      #9e16c3,
+      #9e16c3,
+      #c42da8,
+      #e4428d,
+      #ff5770
+    );
+    background-size: 200% 200%;
+    animation: animateGlow 1.75s linear infinite;
+}
+
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
