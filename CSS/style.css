@@ -573,8 +573,8 @@ box-shadow: 5px 42px 50px -16px rgba(39,255,234,0.41);
     color:#c0c0c0;
 }
 #aboutus-card img {
-    border: 7px solid black;
-    border-radius: 12px;
+
+    border-radius: 10%;
     width: 80% !important;
     width:  280px;
     height: 300px;

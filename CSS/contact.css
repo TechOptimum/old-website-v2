@@ -41,22 +41,19 @@ box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22);
 }
 
 .feedback-input:focus { 
-    border: 2px solid #5c0700; 
+    border: 1px solid #0042aa; 
 }
 .feedback-input-message {
     height: 10rem;
 }
 .feedback-input-message:focus {
-    border: 2px solid #5c0700; 
+    border: 1px solid #0042aa; 
 }
-
 textarea {
   height: 150px;
   line-height: 150%;
   resize:vertical;
-    
 }
-
 .contact-submit-button {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
@@ -88,8 +85,7 @@ textarea {
     align-items:center;
     margin-top: 3.25rem;
     border-radius: 25px;
-    padding: .3rem;
-    
+    padding: .3rem;   
 }
 
 
