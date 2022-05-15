@@ -71,7 +71,11 @@ class Header extends HTMLElement{
   }
   connectedCallback(){
     this.innerHTML = `
+<div>
+
+</div>
     <nav id="main-nav">
+<p>This website is not finished yet, come back in a few weeks to see it finished :) Join our <a href="https://discord.gg/w7cymgdRBH">Discord</a> while you wait</p>
     <div class="container">
      <a href="https://techoptimum.org"> <img src="https://techoptimum-5.siddharthdugg.repl.co/img/logo.png" alt="Tech Optimum Logo" class="logo"></a>
       <ul>

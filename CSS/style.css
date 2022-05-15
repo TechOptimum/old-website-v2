@@ -291,6 +291,19 @@ box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
   color:var(--primary-color);
     border-radius: 29px;
 }
+#main-nav p {
+    text-align:center;
+    background-color: #a96800;
+    margin: 0;
+    padding: 0;
+}
+#main-nav p a {
+    transition: 400ms;
+}
+#main-nav p a:hover {
+    color:#0061ff;
+    transition: 400ms;
+}
 #main-nav ul li a.current{
   border-bottom: 4px solid var(--primary-color);
 }
