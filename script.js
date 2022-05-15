@@ -4,7 +4,7 @@ class Footer extends HTMLElement{
   }
   connectedCallback(){
     this.innerHTML = `
-    <footer id = 'main-footer' class = 'py-2'>
+    <footer id = 'main-footer' class = 'di-3 py-2'>
     <div class='container footer-container'>
       <div>
         <img src='https://techoptimum-5.siddharthdugg.repl.co/img/logo.png' alt='logo'>

@@ -15,11 +15,11 @@ h3 {
     max-width:420px; 
     padding: 2.8rem;
     padding-top: 2rem;
-    background-color: #00143b;
-    border-radius: 15px;
-    margin-top: 15px;
+    border-radius: 10px;
+    margin-top: 15px !important;
   -webkit-box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22); 
 box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22);
+    margin: auto;
 }
 
 .feedback-input, 
@@ -80,7 +80,7 @@ textarea {
     text-align: center;
     font-size: 3.5rem;
     margin: auto;
-    background-color: #00143b;
+
     max-width: 50rem;
     align-items:center;
     margin-top: 3.25rem;
@@ -91,7 +91,7 @@ textarea {
 
 .contact-form-image {
     padding: 3rem;
-    background-color: #00143b;
+
     border-radius: 10px;
     -webkit-box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22); 
 box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22);

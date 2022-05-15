@@ -25,11 +25,16 @@
 body{
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
-  background-color: #242256;
+background: rgb(2,0,36);
+background: -moz-linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(71,71,181,1) 31%, rgba(70,70,185,1) 68%, rgba(2,0,36,1) 99%);
+background: -webkit-linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(71,71,181,1) 31%, rgba(70,70,185,1) 68%, rgba(2,0,36,1) 99%);
+background: linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(71,71,181,1) 31%, rgba(70,70,185,1) 68%, rgba(2,0,36,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#020024",GradientType=1);
 }
 /* moving background 
 body {
   margin:0;
+
 }
 
 <!--publish again-->
@@ -249,8 +254,8 @@ box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
 
 /* Navigation Bar */
 #main-nav{
-     -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
+     -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   position: fixed;
 position: -webkit-fixed;
   top: 0;
@@ -263,7 +268,6 @@ position: -webkit-fixed;
 -moz-box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
 box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
     margin-bottom: 3rem;
-    
 }
 
 #main-nav .container{
