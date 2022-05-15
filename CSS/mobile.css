@@ -7,7 +7,7 @@
 
 #main-nav ul,
 #main-nav .logo {
- justify-self: center;
+ justify-self: center !important;
 }
 #main-nav ul li a {
  padding: 0.30rem;

@@ -73,7 +73,7 @@ class Header extends HTMLElement{
     this.innerHTML = `
     <nav id="main-nav">
     <div class="container">
-      <img src="https://techoptimum-5.siddharthdugg.repl.co/img/logo.png" alt="Tech Optimum Logo" class="logo">
+     <a href="https://techoptimum.org"> <img src="https://techoptimum-5.siddharthdugg.repl.co/img/logo.png" alt="Tech Optimum Logo" class="logo"></a>
       <ul>
         <li><a href="index.html">Home</a></li>
 
