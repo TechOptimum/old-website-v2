@@ -17,8 +17,8 @@ h3 {
     padding-top: 2rem;
     border-radius: 10px;
     margin-top: 15px !important;
-  -webkit-box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22); 
-box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22);
+-webkit-box-shadow: 37px 38px 50px 7px rgba(11,83,137,0.96); 
+box-shadow: 37px 38px 50px 7px rgba(11,83,137,0.96);
     margin: auto;
 }
 
@@ -93,8 +93,8 @@ textarea {
     padding: 3rem;
 
     border-radius: 10px;
-    -webkit-box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22); 
-box-shadow: 12px 20px 50px 40px rgba(181,255,250,0.22);
+-webkit-box-shadow: -30px 26px 50px -20px rgba(11,83,137,0.96); 
+box-shadow: -30px 26px 50px -20px rgba(11,83,137,0.96);
 }
     
 span {
