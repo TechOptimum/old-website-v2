@@ -834,8 +834,6 @@ ul {
 }
 
 li {
-  float: left;
-  color:  #333;
   transition: 200ms;
 }
 
@@ -847,10 +845,7 @@ li {
   transition: 200ms;
 }
 
-
-
 li.dropdown {
-  display: inline-block;
   transition: 200ms;
 }
 
