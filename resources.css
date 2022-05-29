@@ -1,0 +1,26 @@
+.dark-container {
+    margin: auto !important;
+    background: black;
+    color: blue;
+    text-align:center;
+    padding: 1rem;
+    width: 45%;
+    border-radius: 10px;
+}
+.dark-container h1{
+    color: white;
+    margin:auto;
+    padding: 1rem;
+    font-size: 3rem;
+}
+.dark-container li a {
+    color:#53d5fd;
+    padding: .2rem;
+    margin: .5rem;
+    font-size: 1.4rem;
+    transition: 400ms;
+}
+.dark-container li a:hover{
+    color:#2a6d83;
+    
+}
