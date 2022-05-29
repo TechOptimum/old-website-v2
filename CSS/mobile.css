@@ -5,9 +5,12 @@
  grid-gap: .5rem;
 }
 
-#main-nav ul,
-#main-nav .logo {
- justify-self: center !important;
+#main-nav ul{
+  margin:auto;
+}
+#main-nav .container .logo {
+    margin: auto !important;
+    justify-self: center;
 }
 #main-nav ul li a {
  padding: 0.30rem;
