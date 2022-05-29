@@ -22,7 +22,7 @@ class Footer extends HTMLElement{
         <h3>About</h3>
         <ul class = 'list'>
           <li><a href='./community.html'>Community</a></li>
-          <li><a href='/partners.html'>Partners</a></li>
+
           <li><a href='/about.html'>About</a></li>
           <li><a href='/contact.html'>Contact us</a>
         <li><a href='/join-leadership.html'>Join our Team</a>
@@ -86,7 +86,7 @@ class Header extends HTMLElement{
           <div class="dropdown-content">
             <a href="./about.html">About</a>
             <a href="./community.html">Community</a>
-            <a href="./partners.html">Partners</a>
+
             <a href="./join-leadership.html">Join Leadership</a>
           </div>
         </li>
