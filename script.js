@@ -65,6 +65,16 @@ class Footer extends HTMLElement{
       
   }
 }
+class ReturnButton extends HTMLElement{
+    constructor() {
+        super();
+    }
+    connectedCallback(){
+        this.innerHTML = `
+<a href="./join-leadership.html"> Return to previous page</a>`
+    }
+}
+
 class Header extends HTMLElement{
   constructor(){
     super();
@@ -72,7 +82,6 @@ class Header extends HTMLElement{
   connectedCallback(){
     this.innerHTML = `
 <div>
-
 </div>
     <nav id="main-nav">
 <p>This website is not finished yet, come back in a few weeks to see it finished :) Join our <a href="https://discord.gg/w7cymgdRBH">Discord</a> while you wait</p>
@@ -105,4 +114,4 @@ class Header extends HTMLElement{
 }
 customElements.define('header-comp',Header);
 customElements.define('footer-comp',Footer);
-
+customElements.define(`returnButton-comp`, ReturnButton);

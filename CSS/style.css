@@ -1135,13 +1135,14 @@ svg {
 }
 
 .fa {
-    color: #0056d6;
+    color: #74a7fe;
     transition: 400ms;
+    transform: scale(1.2); 
 }
 .fa:hover {
-    color: #74a7fe;
-    transform: scale(1.4); 
+    color: #0067ff;
 }
+
 .container-section-about-sections {
     background: rgb(37,37,122);
     margin:0; 
