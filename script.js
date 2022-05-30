@@ -100,7 +100,7 @@ class Header extends HTMLElement{
           </div>
         </li>
         <li><a href="join.html" >Join</a></li>
-        <li><a href="hackathon.html">Hackathons</a></li>
+        <li><a href="hackathon.html">Hackathon</a></li>
         
 
          <li><a href="./coming-soon.html">Dashboard</a></li>
