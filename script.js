@@ -7,7 +7,7 @@ class Footer extends HTMLElement{
     <footer id = 'main-footer' class = 'di-3 py-2'>
     <div class='container footer-container'>
       <div>
-        <img src='https://techoptimum-5.siddharthdugg.repl.co/img/logo.png' alt='logo'>
+        <img src='https://techoptimum.org/img/logo.png' alt='logo'>
        
    <br>
 <h2>Newsletter</h2>
@@ -86,7 +86,7 @@ class Header extends HTMLElement{
     <nav id="main-nav">
 <p>This website is not finished yet, come back in a few weeks to see it finished :) Join our <a href="https://discord.gg/w7cymgdRBH">Discord</a> while you wait</p>
     <div class="container">
-     <a href="https://techoptimum.org"> <img src="https://techoptimum-5.siddharthdugg.repl.co/img/logo.png" alt="Tech Optimum Logo" class="logo"></a>
+     <a href="https://techoptimum.org"> <img src="https://techoptimum.org/img/logo.png" alt="Tech Optimum Logo" class="logo"></a>
       <ul>
         <li><a href="index.html">Home</a></li>
 
