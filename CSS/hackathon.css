@@ -47,3 +47,49 @@ img {
 .trophy-icon {
     width: 40px;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+    font-size: 10px;
+}
+
+.gallery-item {
+	margin: auto;
+}
+
+.gallery-image {
+	display: block;
+  width: 600px;
+  height: 200px;
+  max-width: 100%;
+height:auto;
+  object-fit: cover;
+  margin:auto;
+
+}
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
+
+
