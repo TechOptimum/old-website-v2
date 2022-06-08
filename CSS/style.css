@@ -1202,3 +1202,25 @@ svg {
 .countdowntitle-daytitle {
     color: #00a3d7;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #0042aa #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #0042aa;
+    border-radius: 5px;
+    border: .5px solid #0042aa;
+  }
