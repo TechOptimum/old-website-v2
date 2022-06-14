@@ -1,5 +1,5 @@
 :root{
-  --primary-color: #ff8647;
+  --primary-color: #bf6738; /*MAYBE CHANGE THIS LATER?*/
   --secondary-color: #f99500;
   --light-color: #f1f1f1;
   --dark-color: #00143b;
@@ -32,60 +32,7 @@ background: linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(71,71,181,1) 31%, rgb
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#020024",GradientType=1);
 
 }
-/* moving background 
-body {
-  margin:0;
 
-}
-pngbackgroundimagegradient
-<!--publish again-->
-.bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
-
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
-
-.bg3 {
-  animation-duration:5s;
-}
-
-.content {
-  background-color:rgba(255,255,255,.8);
-  border-radius:.25em;
-  box-shadow:0 0 .25em rgba(0,0,0,.25);
-  box-sizing:border-box;
-  left:50%;
-  padding:10vmin;
-  position:fixed;
-  text-align:center;
-  top:50%;
-  transform:translate(-50%, -50%);
-}
-
-h1 {
-  font-family:monospace
-}
-
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
- end moving background */
 
 a{
   color: var(--dark-color);
@@ -767,9 +714,18 @@ box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41);
   text-shadow: .5px .5px #1d2482, 7px 7px #11053b;
 }
 
-.testing {
- font-size: 2rem;
-}
+ .css-3d-text {
+    font-size: 26px;
+    color: #b0ebe3;
+   letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #339bf6;
+  text-shadow: 2px 2px #1d2482, 3.5px 3.5px #11053b;
+     margin-bottom: 2rem;
+ }
+
+
 
 .countdowntitle {
   display:inline-block;
