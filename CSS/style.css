@@ -1181,3 +1181,9 @@ svg {
     border-radius: 5px;
     border: .5px solid #0042aa;
   }
+
+::selection {
+  background: yellow;
+  color: #000;
+  border-radius: 5px;
+}
