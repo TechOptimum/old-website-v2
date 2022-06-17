@@ -96,6 +96,7 @@
 }
 img {
     width: 70%;
+    left: 50% !important;
 }
 .contact-submission-recieved-title {
     top: 20px;
