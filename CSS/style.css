@@ -504,6 +504,7 @@ box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
