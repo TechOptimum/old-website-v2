@@ -87,7 +87,7 @@ class Header extends HTMLElement{
 <p>This website is not finished yet, come back in a few weeks to see it finished :) Join our <a href="https://discord.gg/w7cymgdRBH" target="_blank">Discord</a> while you wait</p>
     <div class="container">
      <a href="https://techoptimum.org"> <img src="https://techoptimum.org/img/logo.png" alt="Tech Optimum Logo" class="logo"></a>
-      <ul>
+      <ul class="white">
         <li><a href="index.html">Home</a></li>
 
         <li class="dropdown">
@@ -99,7 +99,7 @@ class Header extends HTMLElement{
             <a href="./join-leadership.html">Join Leadership</a>
           </div>
         </li>
-        <li><a href="join.html" >Join</a></li>
+        <li><a href="join.html">Join</a></li>
         <li><a href="hackathon.html">Hackathon</a></li>
         
 

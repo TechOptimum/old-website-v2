@@ -101,3 +101,11 @@ img {
 .contact-submission-recieved-title {
     top: 20px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  color: white;
+}

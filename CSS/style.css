@@ -278,7 +278,7 @@ box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
 }
 #showcase:before{
   content: '';
-  background: url('../img/featured.jpg') no-repeat center center/cover;
+  background: var(--dark-color);
   position: absolute;
   top: 0;
   left: 0;
@@ -1186,4 +1186,8 @@ svg {
   background: yellow;
   color: #000;
   border-radius: 5px;
+}
+
+li {
+  color: white;
 }
