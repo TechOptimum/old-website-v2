@@ -109,3 +109,9 @@ html {
 li {
   color: white;
 }
+
+::selection {
+  background: yellow;
+  color: #000;
+  border-radius: 5px;
+}
