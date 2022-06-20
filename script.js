@@ -10,8 +10,8 @@ class Footer extends HTMLElement{
         <img src='https://techoptimum.org/img/logo.png' alt='logo'>
        
    <br>
-<h2>Newsletter</h2>
-<p>Recieve weekly emails from Tech Optimum!</p>
+
+<h3 style="font-size: 1rem;">Recieve weekly emails from Tech Optimum!</h3>
         <form name='Subscriptions' method='POST' data-netlify='true'>
           <input type='email' name='emailvar'placeholder='Email:' required>
           <button type='submit' class = 'btn btn-primary'>Subscribe Now!</button>   
@@ -51,8 +51,8 @@ class Footer extends HTMLElement{
       </div>
         
       <div>
-        <h2>Become a member now!</h2>
-        <p>Come check us out, see what we do. You might enjoy it!</p>
+       
+        <h3>Come check us out, see what we do. You might enjoy it!</h3>
         <a href='./coming-soon.html' class='btn btn-primary'>Join Now</a>
       </div>
       <div>
