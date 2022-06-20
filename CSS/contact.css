@@ -43,6 +43,10 @@ box-shadow: 37px 38px 50px 7px rgba(11,83,137,0.96);
 .feedback-input:focus { 
     border: 1px solid #0042aa; 
 }
+.feedback-input:hover {
+        -webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
+box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
+}
 .feedback-input-message {
     height: 10rem;
 }
@@ -54,25 +58,20 @@ textarea {
   line-height: 150%;
   resize:vertical;
 }
-.contact-submit-button {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 100%;
-  background:#f99500;
-  border-radius:10px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
+textarea:hover {
+        -webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
+box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
+}
+
+.submit-button {
+    font-size:20px;
   padding-top:10px;
   padding-bottom:10px;
   transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
+  width: 100%;
   border: 2px solid transparent;
-}
-.contact-submit-button:hover { 
-    background: transparent;
-    border: 2px solid #f99500;
+      cursor:pointer;
 }
 
 .contact-submission-recieved-title {
@@ -80,7 +79,6 @@ textarea {
     text-align: center;
     font-size: 3.5rem;
     margin: auto;
-
     max-width: 50rem;
     align-items:center;
     margin-top: 3.25rem;
