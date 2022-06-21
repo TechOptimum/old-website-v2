@@ -11,7 +11,7 @@ class Footer extends HTMLElement{
        
    <br>
 
-<h3 style="font-size: 1rem;">Recieve weekly emails from Tech Optimum!</h3>
+<h3 style="font-family: 'Lato', sans-serif; font-size: 1rem;">Recieve weekly emails from Tech Optimum!</h3>
         <form name='Subscriptions' method='POST' data-netlify='true'>
           <input type='email' name='emailvar'placeholder='Email:' required>
           <button type='submit' class = 'btn btn-primary'>Subscribe Now!</button>   
@@ -52,7 +52,7 @@ class Footer extends HTMLElement{
         
       <div>
        
-        <h3>Come check us out, see what we do. You might enjoy it!</h3>
+   <h3 style="font-family: 'Lato', sans-serif; font-size: 1rem;">Come check us out, see what we do. You might enjoy it!</h3>
         <a href='./coming-soon.html' class='btn btn-primary'>Join Now</a>
       </div>
       <div>
@@ -82,6 +82,7 @@ class Header extends HTMLElement{
   connectedCallback(){
     this.innerHTML = `
 <div>
+
 </div>
     <nav id="main-nav">
 <p>This website is not finished yet, come back in a few weeks to see it finished :) Join our <a href="https://discord.gg/w7cymgdRBH" target="_blank">Discord</a> while you wait</p>
@@ -114,4 +115,3 @@ class Header extends HTMLElement{
 }
 customElements.define('header-comp',Header);
 customElements.define('footer-comp',Footer);
-document.addEventListener('contextmenu', event => event.preventDefault());

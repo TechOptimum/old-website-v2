@@ -26,10 +26,6 @@ body{
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
    background: rgb(2,0,36);
-background: -moz-linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(71,71,181,1) 31%, rgba(70,70,185,1) 68%, rgba(2,0,36,1) 99%);
-background: -webkit-linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(71,71,181,1) 31%, rgba(70,70,185,1) 68%, rgba(2,0,36,1) 99%);
-background: linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(71,71,181,1) 31%, rgba(70,70,185,1) 68%, rgba(2,0,36,1) 99%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#020024",GradientType=1);
 
 }
 
@@ -279,7 +275,7 @@ box-shadow: 0px 30px 183px 55px rgba(10,43,173,0.6);
 }
 #showcase:before{
   content: '';
-  background: var(--dark-color);
+    background: url('../img/featured.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -762,18 +758,20 @@ box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41);
       justify-content: center;
       padding-top: .7rem;
       padding-bottom: .7rem;
-      background-color:rgba(255,255,255,.8);
       width: 60%;
       border-radius: 5px;
       margin: auto;
       width: 60%;
       padding: 10px;
       margin-bottom: 2rem;
+      border-top: .7px solid white;  
 }
 .social-button {
   padding: 1.5rem;
-  color:#444444;
+  color:#646464;
   transition: 200ms;
+  margin-top: 4rem;
+    padding-top: 4rem; 
 }
 .social-button:hover {
   color: orange;
@@ -1192,3 +1190,4 @@ svg {
 li {
   color: white;
 }
+/*CAROUSEL*/
