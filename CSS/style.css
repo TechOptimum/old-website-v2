@@ -528,9 +528,9 @@ html {
     text-align: center;
     padding: 1rem;
     border-radius: 20px;
-    -webkit-box-shadow: 5px 42px 50px -16px rgba(39,255,234,0.41); 
-box-shadow: 5px 42px 50px -16px rgba(39,255,234,0.41);
+   
 }
+
 
 #aboutus-card h2 {
     color:#c0c0c0;
