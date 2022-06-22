@@ -960,16 +960,11 @@ svg {
 
 .column-66 {
   float: left;
-  width: 56.66666%;
-  padding: 20px;
-  border: 3px;
-  margin: 1rem;
+  width: 65%;
 }
 .column-33 {
   float: left;
-  width: 33.33333%;
-  padding: 20px;
-    
+  width: 35%;
 }
 .large-font {
   font-size: 48px;
