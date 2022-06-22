@@ -1,5 +1,5 @@
 body{
-background: rgb(24,12,227);
+background: rgb(11, 38, 70) !important;
 background: -moz-linear-gradient(225deg, rgba(24,12,227,0.9640231092436975) 0%, rgba(23,23,158,1) 58%, rgba(8,22,78,1) 100%);
 background: -webkit-linear-gradient(225deg, rgba(24,12,227,0.9640231092436975) 0%, rgba(23,23,158,1) 58%, rgba(8,22,78,1) 100%);
 background: linear-gradient(225deg, rgba(24,12,227,0.9640231092436975) 0%, rgba(23,23,158,1) 58%, rgba(8,22,78,1) 100%);
@@ -17,7 +17,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#180ce3",endCo
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: transparent;
-  text-shadow: 2px 2px #0042aa, 7px 7px #000000;
+  text-shadow: 2px 2px #35d734, 7px 7px #000000;
 
 
 }
@@ -29,4 +29,13 @@ h1 {
 }
 .fa-linkedin {
     color:white;
+}
+
+.line-1 {
+  height: 1px;
+  background: white;
+  max-width: 500px;
+
+  margin-top: 20px;
+    margin-bottom: 20px;
 }

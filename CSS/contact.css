@@ -40,6 +40,8 @@ h3 {
 
 .feedback-input:focus { 
     border: 1px solid #0042aa; 
+    -webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
+box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
 }
 .feedback-input:hover {
         -webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
@@ -50,6 +52,8 @@ box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
 }
 .feedback-input-message:focus {
     border: 1px solid #0042aa; 
+    -webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
+box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
 }
 textarea {
   height: 150px;
