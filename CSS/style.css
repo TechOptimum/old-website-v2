@@ -960,7 +960,8 @@ svg {
 
 .column-66 {
   float: left;
-  width: 65%;
+  width: 60%;
+  margin: 15px;
 }
 .column-33 {
   float: left;
@@ -978,6 +979,7 @@ svg {
   .column-33 {
     width: 100%;
     text-align: center;
+    margin:auto;
   }
   img {
     margin: auto;
