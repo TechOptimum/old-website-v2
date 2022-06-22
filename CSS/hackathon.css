@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body{
-background: rgb(0,6,11);
+background: rgb(0, 51, 93) !important;
 background: -moz-linear-gradient(45deg, rgba(0,6,11,0.9640231092436975) 0%, rgba(2,50,91,1) 45%, rgba(0,84,154,1) 100%);
 background: -webkit-linear-gradient(45deg, rgba(0,6,11,0.9640231092436975) 0%, rgba(2,50,91,1) 45%, rgba(0,84,154,1) 100%);
 background: linear-gradient(45deg, rgba(0,6,11,0.9640231092436975) 0%, rgba(2,50,91,1) 45%, rgba(0,84,154,1) 100%);
