@@ -1423,3 +1423,14 @@ body #scene #right-zone {
   flex-grow: 3;
 }
 
+
+.line-1 {
+  height: 1px;
+  background: white;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.highlight-lightblue {
+    color:#00c7fc;
+}
