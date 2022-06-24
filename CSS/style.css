@@ -23,7 +23,7 @@
   box-sizing: inherit;
 }
 body{
-  font-family: 'Lato', sans-serif;
+
   line-height: 1.5;
    background: rgb(2,0,36);
 
@@ -43,8 +43,11 @@ p{
 img{
   width: 100%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hind:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+
 h1,h2 {
-  font-family: 'Staatliches';
+font-family: 'Yanone Kaffeesatz', sans-serif;
   margin-bottom: .75rem;
   line-height: 1.3;
 }
@@ -712,6 +715,7 @@ box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41);
 }
 
 .hometitle {
+    font-family: Staatliches;
   font-size: 5rem;
    letter-spacing:0.1em;
   -webkit-text-fill-color: transparent;
@@ -1433,4 +1437,36 @@ body #scene #right-zone {
 }
 .highlight-lightblue {
     color:#00c7fc;
+}
+
+.parent-gridd { 
+display: grid; 
+grid-template-columns: repeat(3, 1fr); 
+grid-template-rows: 1fr; 
+grid-column-gap: 13px;
+grid-row-gap: 6px; 
+}
+
+
+.subdiv-grid  {
+    border: 2px solid #040632;
+    border-radius: 9px;
+    padding: 15px;
+    color:white;
+    background-color:#071c4c;
+}
+.subdiv-grid h1 {
+    color:#1356ff;
+    font-size: 1.7rem;
+}
+#coding-preview-section h1{
+    margin:1rem;
+    color:white;
+    
+}
+#coding-preview-section h1 span {
+    color: blue;
+}
+.extending-preview {
+    
 }
