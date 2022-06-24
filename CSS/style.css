@@ -1468,5 +1468,8 @@ grid-row-gap: 6px;
     color: blue;
 }
 .extending-preview {
-    
+background-color:#071c4c;
+    border-radius: 10px;
+    padding: 10px;
+    color: #4273cb;
 }
