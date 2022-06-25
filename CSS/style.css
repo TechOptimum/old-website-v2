@@ -776,7 +776,7 @@ box-shadow: inset 0px 31px 50px 10px rgba(0,0,0,0.41);
       width: 60%;
       padding: 10px;
       margin-bottom: 2rem;
-      border-top: .7px solid white;  
+      border-top: .7px solid #3e3e3e;  
 }
 .social-button {
   padding: 1.5rem;
@@ -1212,7 +1212,6 @@ body {
 
 .line-1 {
   height: 1px;
-  background: white;
   max-width: 500px;
   margin-top: 20px;
   margin-bottom: 20px;
