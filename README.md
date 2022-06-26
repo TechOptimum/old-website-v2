@@ -1,7 +1,7 @@
 # Tech Optimum Website
 Official website for Tech Optimum.
 
-(This website is still a work in progress, we are planning to launch this organization in Late April/Early May)
+(This website is still a work in progress, we are planning to launch this organization soon)
 This is the websiste for the non profit organization, Tech Optimum.
 
 # Contributing

@@ -131,6 +131,14 @@ box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
     color: #1c2b75;
     background-color:white;
 }
+.btn-disabled {
+  color:white;
+  cursor: not-allowed;
+}
+.btn-disabled:hover {
+  background-color: transparent;
+  color: white;
+}
 .card{
   background: #ffffff;
   padding: .7rem;
