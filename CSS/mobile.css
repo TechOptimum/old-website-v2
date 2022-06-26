@@ -110,6 +110,11 @@ li {
   color: white;
 }
 
+summary {
+  color: white;
+  transition: 200ms;
+}
+
 ::selection {
   background: yellow;
   color: #000;

@@ -1199,6 +1199,11 @@ svg {
 li {
   color: white;
 }
+
+summary {
+  color: white;
+  transition: 200ms;
+}
 /*CAROUSEL*/
 body {
 
