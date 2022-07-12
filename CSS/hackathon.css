@@ -87,7 +87,7 @@ img {
 
 .gallery-image {
 	display: block;
-  width: 600px;
+  width: 400px;
   height: 200px;
   max-width: 100%;
 height:auto;
@@ -1512,3 +1512,29 @@ height:auto;
   .highlight-lightblue {
       color:#00c7fc;
   }
+
+.card {
+    background: black;
+}
+#sixsix{
+     padding: 70px 0;
+}
+
+.about-title-tech-font {
+    letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: transparent;
+  text-shadow: 2px 2px #35d734, 7px 7px #000000;
+
+
+}
+p {
+    color: white;
+}
+h1 {
+    color: white;
+}
+.fa-linkedin {
+    color:white;
+}
