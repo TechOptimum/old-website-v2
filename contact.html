@@ -1,69 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <link rel="stylesheet" href="../CSS/contact.css">
-      <link rel="stylesheet" href="../CSS/style.css">
-  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="../CSS/mobile.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-  <script src="./script.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" media='screen and (max-width: 768px)' href="../CSS/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
 
-  <title>Tech Optimum | Contact</title>
+    <title>Tech Optimum | Contact</title>
 
-  <!-- Google Analytics -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C227L4WGXM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C227L4WGXM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-C227L4WGXM');
-</script>
-  
-</head> 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C227L4WGXM');
+    </script>
+
+</head>
+
 <body>
     <!--navbar-->
-<header-comp></header-comp>
-  <!--end navbar-->
+    <header-comp></header-comp>
+    <!--end navbar-->
     <br>
     <br>
     <br>
     <br>
-<h1 style="margin-top: 5rem;"id="yes"class="contact-submission-recieved-title">Reach out to <span>Tech Optimum</span></h1>
-    
-      <div class="row">
-          <div class="column-66">
-    <img class="contact-form-image"src="../img/contact-picture.svg">
-          </div>
-                  <div class="column-33">
-<div class="contact-form-section">
-       <form action="https://formsubmit.co/017d44c3d8b26a2ebc2bbb1a07b7ca5a" method="POST">
-           <h3>Name</h3>
-  <input name="name" type="text" class="feedback-input" placeholder="Name" required/>  
-           <h3>Email</h3>
-  <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
-  <input type="hidden" name="_subject" value="New submission!">
-<input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="box"> 
-   <input type="hidden" name="_next" value="https://techoptimum.org/confirmations/contact-confirmation.html">     
-           <h3>What would you like to contact us about?</h3>
-  <textarea type="text"name="text" class="feedback-input-message" placeholder="What would you like to contact us about?" required> </textarea>
-           
-  <input class="btn btn-primary submit-button" type="submit" value="Submit"/>
-</form>
-</div>
-      </div>
-      </div>
+    <h1 style="margin-top: 5rem;" id="yes" class="contact-submission-recieved-title">Reach out to <span>Tech Optimum</span></h1>
+
+    <div class="row">
+        <div class="column-66">
+            <img class="contact-form-image" src="../img/contact-picture.svg">
+        </div>
+        <div class="column-33">
+            <div class="contact-form-section">
+                <form name="contact" action="https://formsubmit.co/017d44c3d8b26a2ebc2bbb1a07b7ca5a" method="POST" onsubmit="return validateForm()">
+                    <h3>Name</h3>
+                    <input name="name" type="text" class="feedback-input" placeholder="Name" required />
+                    <h3>Email</h3>
+                    <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_next" value="https://techoptimum.org/confirmations/contact-confirmation.html">
+                    <h3>What would you like to contact us about?</h3>
+                    <textarea type="text" name="text" class="feedback-input-message" placeholder="What would you like to contact us about?" required></textarea>
+
+                    <input class="btn btn-primary submit-button" type="submit" value="Submit" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const nameInput = document.forms["contact"]["name"];
+        const emailInput = document.forms["contact"]["email"];
+        /** @type HTMLTextAreaElement */
+        const responseInput = document.forms["contact"]["text"];
+
+        // alert system is not the best and could be made better in the future. -def_SpaceWar
+        function validateForm() {
+            if (nameInput.value == "") {
+                alert("Name required.");
+                return false;
+            }
+
+            if (emailInput.value == "") {
+                alert("Email required.");
+                return false;
+            }
+
+            console.log(responseInput);
+            console.log("\"" + responseInput.value + "\"");
+            if (responseInput.value == "") {
+                alert("There must be a message!");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
     <!-- FOOTER -->
-<footer-comp></footer-comp>
+    <footer-comp></footer-comp>
 </body>
+
 </html>

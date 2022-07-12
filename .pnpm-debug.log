@@ -1,0 +1,41 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/home/aryan/.local/share/pnpm/global/5"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/aryan/.local/share/pnpm/store/v3",
+    "virtualStoreDir": "/home/aryan/.local/share/pnpm/global/5/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/aryan/.local/share/pnpm/global/5",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "live-servr is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/live-servr"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "live-servr",
+    "spec": {
+      "fetchSpec": "latest",
+      "name": "live-servr",
+      "type": "tag"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/live-servr: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/live-servr: Not Found - 404\n    at RetryOperation._fn (/snapshot/dist/pnpm.cjs)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}
