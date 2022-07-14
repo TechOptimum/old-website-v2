@@ -43,10 +43,7 @@ h3 {
     -webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
 box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
 }
-.feedback-input:hover {
-        -webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
-}
+
 .feedback-input-message {
     height: 10rem;
 }
@@ -59,21 +56,6 @@ textarea {
   height: 150px;
   line-height: 150%;
   resize:vertical;
-}
-textarea:hover {
-        -webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
-}
-
-.submit-button {
-    font-size:20px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  width: 100%;
-  border: 2px solid transparent;
-      cursor:pointer;
 }
 
 .contact-submission-recieved-title {

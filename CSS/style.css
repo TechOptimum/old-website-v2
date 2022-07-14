@@ -98,25 +98,19 @@ h3, h4, h5, h6 {
   color: var(--dark-color);
 }
 .btn-primary{
-    background: transparent;
-border: 1px solid var(--primary-color);
+    background-color: #0c396e;
+
 
 }
 .btn-secondary{
   background: var(--secondary-color);
 }
 .btn:hover{
-  background: #98fb98;
-  color: #001e57;
 
-    -webkit-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28); 
-box-shadow: 14px 7px 50px 9px rgba(39,255,234,0.28);
+
 }
 .btn-primary:hover {
-    background-color: rgba(252, 173, 3, 0.2);
-    color: white;
-    transition: 300ms;
-    border: 1px solid var(--primary-color);
+  background-color: #15539b;
  
 }
 .btn-block{
