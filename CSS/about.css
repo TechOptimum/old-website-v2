@@ -1,10 +1,50 @@
-body{
-background: rgb(11, 38, 70) !important;
-background: -moz-linear-gradient(225deg, rgba(24,12,227,0.9640231092436975) 0%, rgba(23,23,158,1) 58%, rgba(8,22,78,1) 100%);
-background: -webkit-linear-gradient(225deg, rgba(24,12,227,0.9640231092436975) 0%, rgba(23,23,158,1) 58%, rgba(8,22,78,1) 100%);
-background: linear-gradient(225deg, rgba(24,12,227,0.9640231092436975) 0%, rgba(23,23,158,1) 58%, rgba(8,22,78,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#180ce3",endColorstr="#08164e",GradientType=1);
+:root {
+  --cardWidth: 290px;
+  --cardHeight: 200px;
+  --cardMargin: 16px;
 }
+.card-show-off-main-section{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+ 
+}
+.show-off-showcase-card {
+  width: var(--cardWidth);
+  height: var(--cardHeight);
+  margin: auto;
+  border-radius: 8px;
+  background: #0042aa;
+  box-sizing: border-box;
+ margin-bottom: 10px;
+text-align:center;
+    -webkit-box-shadow: 4px 14px 50px -30px #3B95FF; 
+box-shadow: 4px 14px 50px -30px #3B95FF;
+}
+.show-off-showcase-card h1 {
+    color:white;
+    width:100%;
+    text-align:center;
+    padding: 5px;
+      border-radius: 8px;
+}
+.show-off-showcase-card p {
+    padding: 0px 20px 25px 20px;
+}
+/*.the-border-line {
+    border-bottom: 2px solid #c0c0c0;
+    width: 50%;
+    text-align:center;
+    margin:auto;
+}*/
+.show-off-showcase-card i {
+    margin:auto;
+    text-align:center;
+    padding:auto;
+}
+
+
 .card {
     background: black;
 }
