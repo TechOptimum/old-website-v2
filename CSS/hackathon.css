@@ -5,6 +5,13 @@
     --dark-color: #00143b;
     --max-width: 1200px;
   }
+:root {
+  --cardWidth: 290px;
+  --cardHeight: 200px;
+  --cardMargin: 16px;
+}
+
+
   .category{
     --sports-color: orange;
     --ent-color: #a66bbe;
@@ -75,39 +82,30 @@ img {
 	box-sizing: border-box;
 }
 .gallery {
-	display: flex;
-	flex-wrap: wrap;
-	margin: auto;
-    font-size: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .gallery-item {
 	margin: auto;
+    width: var(--cardWidth);
+  height: var(--cardHeight);
+  margin: auto;
+    padding:10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+ margin-bottom: 10px;
+text-align:center;
 }
 
 .gallery-image {
-	display: block;
-  width: 400px;
-  height: 200px;
-  max-width: 100%;
-height:auto;
-  object-fit: cover;
-  margin:auto;
+
 
 }
 
-@supports (display: grid) {
-	.gallery {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-		grid-gap: 2rem;
-	}
 
-	.gallery,
-	.gallery-item {
-		margin: 0;
-	}
-}
+
   
   
   a{
