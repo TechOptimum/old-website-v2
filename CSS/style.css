@@ -223,9 +223,7 @@ position: -webkit-fixed;
     width: 100%;
     opacity: 3;
     background: rgba(13, 52, 115,0.5);
-   
-    margin-bottom: 50px !important;
-    
+    margin-bottom: 50px !important; 
 }
 
 #main-nav .container{
