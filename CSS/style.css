@@ -25,7 +25,8 @@
 body{
 
   line-height: 1.5;
-   background: rgb(2,0,36);
+  background: rgb(2,57,163);
+background: linear-gradient(180deg, rgba(2,57,163,1) 0%, rgba(0,36,106,1) 60%, rgba(0,18,51,1) 100%);
 
 }
 
@@ -1136,7 +1137,7 @@ svg {
      padding: 70px 0;
 }
 
-
+/*
 .animated-glow-css{
   position: relative;
   box-shadow: 0 0 0 1px rgba(0,0,0,.01);
@@ -1175,7 +1176,7 @@ svg {
     background-position: 200% 50%;
   }
 }
-
+*/
 .countdowntitle-daytitle {
     color: #00a3d7;
 }
@@ -1264,9 +1265,7 @@ grid-row-gap: 6px;
     color:white;
     
 }
-#coding-preview-section h1 span {
-    color: blue;
-}
+
 .extending-preview {
 background-color:#071c4c;
     border-radius: 10px;
