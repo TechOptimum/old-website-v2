@@ -115,3 +115,7 @@ class Header extends HTMLElement{
 }
 customElements.define('header-comp',Header);
 customElements.define('footer-comp',Footer);
+
+
+
+
